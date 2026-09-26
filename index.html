@@ -235,13 +235,17 @@ td:nth-child(3) {
 
 .pagination {
   display:flex;
-  justify-content:space-between;
+  justify-content:center;
   align-items:center;
   gap:8px;
   margin-top:12px;
 }
 
 .pagination button {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:44px;
   min-height:44px;
   border:1px solid #bbb;
   border-radius:9px;
@@ -251,6 +255,27 @@ td:nth-child(3) {
 
 .pagination button:disabled {
   opacity:.4;
+  cursor:default;
+}
+
+.pagination .page-number[aria-current="page"] {
+  color:#fff;
+  background:#315f72;
+  border-color:#315f72;
+  opacity:1;
+}
+
+.page-numbers {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+}
+
+.page-ellipsis {
+  min-width:16px;
+  text-align:center;
+  color:#666;
 }
 
 .error {
@@ -305,6 +330,31 @@ td:nth-child(3) {
 
   .copy-link {
     width:100%;
+  }
+
+  .pagination {
+    gap:4px;
+  }
+
+  .pagination button {
+    min-width:36px;
+    padding:8px 6px;
+  }
+
+  .pagination > button {
+    min-width:40px;
+  }
+
+  .page-numbers {
+    gap:4px;
+  }
+
+  .pagination-label {
+    display:none;
+  }
+
+  .page-ellipsis {
+    min-width:12px;
   }
 }
 </style>
@@ -445,13 +495,13 @@ td:nth-child(3) {
 <div class="pagination">
 
 <button id="prev">
-  ← Назад
+  ← <span class="pagination-label">Назад</span>
 </button>
 
-<span id="pageInfo"></span>
+<div id="pageNumbers" class="page-numbers" aria-label="Страницы"></div>
 
 <button id="next">
-  Вперёд →
+  <span class="pagination-label">Вперёд</span> →
 </button>
 
 </div>
@@ -781,6 +831,10 @@ function restoreStateFromUrl() {
 
   const params = new URLSearchParams(location.search);
 
+  const page = Number(params.get("page") || 1);
+
+  currentPage = Number.isInteger(page) ? Math.max(1,page) : 1;
+
   document.getElementById("search").value =
     params.get("q") || "";
 
@@ -845,6 +899,8 @@ function saveStateToUrl() {
 
   if(size!=="50")
     params.set("size",size);
+
+  params.set("page",currentPage);
 
   const queryString = params.toString();
   const url = location.pathname +
@@ -1065,11 +1121,61 @@ function ratingBadgeClass(rating) {
 }
 
 
+function paginationItems(page,pages) {
+
+  const neighbours = matchMedia("(max-width: 600px)").matches ? 1 : 2;
+  const visible = new Set([1,pages]);
+
+  for(let number=page-neighbours;number<=page+neighbours;number++) {
+
+    if(number>=1 && number<=pages)
+      visible.add(number);
+
+  }
+
+  const numbers = [...visible].sort((a,b)=>a-b);
+  const items = [];
+
+  numbers.forEach((number,index) => {
+
+    if(index && number-numbers[index-1]>1)
+      items.push("…");
+
+    items.push(number);
+
+  });
+
+  return items;
+
+}
+
+
+function renderPagination(pages) {
+
+  document.getElementById("pageNumbers").innerHTML =
+    paginationItems(currentPage,pages).map(item => {
+
+      if(item==="…")
+        return '<span class="page-ellipsis" aria-hidden="true">…</span>';
+
+      const current = item===currentPage;
+
+      return `<button
+        type="button"
+        class="page-number"
+        data-page="${item}"
+        aria-label="Страница ${item}"
+        ${current ? 'aria-current="page" disabled' : ""}
+      >${item}</button>`;
+
+    }).join("");
+
+}
+
+
 function render() {
 
   updateSummaries();
-
-  saveStateToUrl();
 
 
   const filtered =
@@ -1095,10 +1201,10 @@ function render() {
 
 
   currentPage =
-    Math.min(
-      currentPage,
-      pages
-    );
+    Math.max(1,Math.min(currentPage,pages));
+
+
+  saveStateToUrl();
 
 
   const start =
@@ -1145,10 +1251,7 @@ function render() {
     `Найдено: ${filtered.length} из ${hotels.length}`;
 
 
-  document.getElementById(
-    "pageInfo"
-  ).textContent =
-    `Страница ${currentPage} из ${pages}`;
+  renderPagination(pages);
 
 
   document.getElementById(
@@ -1499,6 +1602,23 @@ document.getElementById(
       render();
 
     }
+
+  };
+
+
+document.getElementById(
+  "pageNumbers"
+).onclick =
+  event => {
+
+    const button = event.target.closest("[data-page]");
+
+    if(!button)
+      return;
+
+    currentPage = Number(button.dataset.page);
+
+    render();
 
   };
 
