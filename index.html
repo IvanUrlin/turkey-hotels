@@ -577,6 +577,8 @@ let hotels = [];
 
 let hotelMeta = {};
 
+let masterLoaded = false;
+
 let currentPage = 1;
 
 let pageCount = 1;
@@ -1690,6 +1692,9 @@ async function loadMeta() {
 
     hotelMeta = meta.hotels;
 
+    if(masterLoaded)
+      render();
+
   } catch(error) {
 
     hotelMeta = {};
@@ -1701,7 +1706,7 @@ async function loadMeta() {
 
 async function loadMaster() {
 
-  const metaPromise = loadMeta();
+  loadMeta();
 
   try {
 
@@ -1739,9 +1744,6 @@ async function loadMaster() {
       );
 
 
-    await metaPromise;
-
-
     updateFilterCounts();
 
 
@@ -1754,6 +1756,9 @@ async function loadMaster() {
       "status"
     ).textContent =
       `Master-файл: ${dateMatch ? dateMatch[1] : "дата не указана"} · Отелей: ${hotels.length}`;
+
+
+    masterLoaded = true;
 
 
     render();
