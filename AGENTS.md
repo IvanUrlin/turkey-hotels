@@ -26,3 +26,12 @@ This repository contains a simple static hotel catalogue website.
 - Check that the site still loads hotels from hotels-master.txt.
 - Preserve mobile usability.
 - At the end, list all changed files.
+
+## UI validation
+For any UI or responsive-layout change:
+- use Playwright with Chromium;
+- test widths 360, 390, and 430 px;
+- verify there is no horizontal page overflow;
+- check for console errors;
+- create screenshots for visual review;
+- report the tested widths and results before publishing a pull request.
