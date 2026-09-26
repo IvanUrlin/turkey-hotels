@@ -513,6 +513,8 @@ td:nth-child(3) {
 
 const MASTER_URL = "./hotels-master.txt";
 
+const META_URL = "./hotels-meta.json";
+
 
 const resorts = [
   "Анталья",
@@ -572,6 +574,10 @@ const ratingRank = new Map(
 
 
 let hotels = [];
+
+let hotelMeta = {};
+
+let masterLoaded = false;
 
 let currentPage = 1;
 
@@ -1039,13 +1045,28 @@ function filteredHotels() {
         return false;
 
 
-      if(
-        query &&
-        !hotel.hotel
+      if(query) {
+
+        const canonicalMatch = hotel.hotel
           .toLocaleLowerCase("ru")
-          .includes(query)
-      )
-        return false;
+          .includes(query);
+
+        const metadata = Object.hasOwn(hotelMeta,hotel.hotel)
+          ? hotelMeta[hotel.hotel]
+          : null;
+        const aliases = metadata && Array.isArray(metadata.aliases)
+          ? metadata.aliases
+          : [];
+
+        const aliasMatch = aliases.some(
+          alias => typeof alias==="string" &&
+            alias.toLocaleLowerCase("ru").includes(query)
+        );
+
+        if(!canonicalMatch && !aliasMatch)
+          return false;
+
+      }
 
 
       return true;
@@ -1645,7 +1666,47 @@ document.getElementById(
   () => goToPage(currentPage+1);
 
 
+async function loadMeta() {
+
+  try {
+
+    const response = await fetch(
+      META_URL + "?v=" + Date.now(),
+      { cache:"no-store" }
+    );
+
+    if(!response.ok)
+      throw new Error("HTTP " + response.status);
+
+    const meta = await response.json();
+
+    if(
+      !meta ||
+      typeof meta!=="object" ||
+      Array.isArray(meta) ||
+      !meta.hotels ||
+      typeof meta.hotels!=="object" ||
+      Array.isArray(meta.hotels)
+    )
+      throw new Error("Некорректная структура metadata");
+
+    hotelMeta = meta.hotels;
+
+    if(masterLoaded)
+      render();
+
+  } catch(error) {
+
+    hotelMeta = {};
+
+  }
+
+}
+
+
 async function loadMaster() {
+
+  loadMeta();
 
   try {
 
@@ -1695,6 +1756,9 @@ async function loadMaster() {
       "status"
     ).textContent =
       `Master-файл: ${dateMatch ? dateMatch[1] : "дата не указана"} · Отелей: ${hotels.length}`;
+
+
+    masterLoaded = true;
 
 
     render();
