@@ -575,6 +575,10 @@ let hotels = [];
 
 let currentPage = 1;
 
+let pageCount = 1;
+
+const mobilePagination = matchMedia("(max-width: 600px)");
+
 
 function normalizeRating(value) {
 
@@ -900,7 +904,8 @@ function saveStateToUrl() {
   if(size!=="50")
     params.set("size",size);
 
-  params.set("page",currentPage);
+  if(currentPage>1)
+    params.set("page",currentPage);
 
   const queryString = params.toString();
   const url = location.pathname +
@@ -1123,7 +1128,7 @@ function ratingBadgeClass(rating) {
 
 function paginationItems(page,pages) {
 
-  const neighbours = matchMedia("(max-width: 600px)").matches ? 1 : 2;
+  const neighbours = mobilePagination.matches ? 1 : 2;
   const visible = new Set([1,pages]);
 
   for(let number=page-neighbours;number<=page+neighbours;number++) {
@@ -1173,6 +1178,12 @@ function renderPagination(pages) {
 }
 
 
+mobilePagination.addEventListener(
+  "change",
+  () => renderPagination(pageCount)
+);
+
+
 function render() {
 
   updateSummaries();
@@ -1198,6 +1209,9 @@ function render() {
         pageSize
       )
     );
+
+
+  pageCount = pages;
 
 
   currentPage =
@@ -1264,6 +1278,20 @@ function render() {
     "next"
   ).disabled =
     currentPage>=pages;
+
+}
+
+
+function goToPage(page) {
+
+  currentPage = Math.max(1,Math.min(page,pageCount));
+
+  render();
+
+  document.querySelector(".table-wrap").scrollIntoView({
+    behavior:"smooth",
+    block:"start"
+  });
 
 }
 
@@ -1593,17 +1621,7 @@ document.getElementById(
 document.getElementById(
   "prev"
 ).onclick =
-  () => {
-
-    if(currentPage>1) {
-
-      currentPage--;
-
-      render();
-
-    }
-
-  };
+  () => goToPage(currentPage-1);
 
 
 document.getElementById(
@@ -1616,9 +1634,7 @@ document.getElementById(
     if(!button)
       return;
 
-    currentPage = Number(button.dataset.page);
-
-    render();
+    goToPage(Number(button.dataset.page));
 
   };
 
@@ -1626,13 +1642,7 @@ document.getElementById(
 document.getElementById(
   "next"
 ).onclick =
-  () => {
-
-    currentPage++;
-
-    render();
-
-  };
+  () => goToPage(currentPage+1);
 
 
 async function loadMaster() {
