@@ -669,7 +669,7 @@ function createFilters() {
           value="${resort}"
           checked
         >
-        ${resort}
+        <span>${resort} <span class="option-count" data-resort-count="${resort}"></span></span>
       </label>
     `
   ).join("");
@@ -686,10 +686,128 @@ function createFilters() {
           value="${rating}"
           checked
         >
-        ${rating}
+        <span>${rating} <span class="option-count" data-rating-count="${rating}"></span></span>
       </label>
     `
   ).join("");
+
+}
+
+
+function updateFilterCounts() {
+
+  for(const resort of resorts) {
+
+    const count = hotels.filter(
+      hotel => hotel.resort===resort
+    ).length;
+
+    document.querySelector(
+      `[data-resort-count="${resort}"]`
+    ).textContent = `(${count})`;
+
+  }
+
+
+  for(const rating of ratings) {
+
+    const count = hotels.filter(
+      hotel => hotel.rating===rating
+    ).length;
+
+    document.querySelector(
+      `[data-rating-count="${rating}"]`
+    ).textContent = `(${count})`;
+
+  }
+
+}
+
+
+function setCheckedValues(selector, values) {
+
+  document.querySelectorAll(selector).forEach(
+    input => input.checked=values.has(input.value)
+  );
+
+}
+
+
+function restoreStateFromUrl() {
+
+  const params = new URLSearchParams(location.search);
+
+  document.getElementById("search").value =
+    params.get("q") || "";
+
+  const sort = params.get("sort");
+
+  if([
+    "rating-desc",
+    "rating-asc",
+    "name",
+    "resort"
+  ].includes(sort))
+    document.getElementById("sort").value=sort;
+
+  const size = params.get("size");
+
+  if(["25","50","100"].includes(size))
+    document.getElementById("pageSize").value=size;
+
+  if(params.has("resorts"))
+    setCheckedValues(
+      ".resort-filter",
+      new Set(
+        params.get("resorts").split(",").filter(
+          resort => resorts.includes(resort)
+        )
+      )
+    );
+
+  if(params.has("ratings"))
+    setCheckedValues(
+      ".rating-filter",
+      new Set(
+        params.get("ratings").split(",").filter(
+          rating => ratings.includes(rating)
+        )
+      )
+    );
+
+}
+
+
+function saveStateToUrl() {
+
+  const params = new URLSearchParams();
+  const query = document.getElementById("search").value.trim();
+  const sort = document.getElementById("sort").value;
+  const size = document.getElementById("pageSize").value;
+  const selectedResorts = [...selectedValues(".resort-filter")];
+  const selectedRatings = [...selectedValues(".rating-filter")];
+
+  if(query)
+    params.set("q",query);
+
+  if(selectedResorts.length!==resorts.length)
+    params.set("resorts",selectedResorts.join(","));
+
+  if(selectedRatings.length!==ratings.length)
+    params.set("ratings",selectedRatings.join(","));
+
+  if(sort!=="rating-desc")
+    params.set("sort",sort);
+
+  if(size!=="50")
+    params.set("size",size);
+
+  const queryString = params.toString();
+  const url = location.pathname +
+    (queryString ? `?${queryString}` : "") +
+    location.hash;
+
+  history.replaceState(null,"",url);
 
 }
 
@@ -888,6 +1006,8 @@ function render() {
 
   updateSummaries();
 
+  saveStateToUrl();
+
 
   const filtered =
     filteredHotels();
@@ -1045,6 +1165,11 @@ function setupMulti(id) {
         "open"
       );
 
+      button.setAttribute(
+        "aria-expanded",
+        box.classList.contains("open")
+      );
+
     }
   );
 
@@ -1077,7 +1202,30 @@ document.addEventListener(
 );
 
 
+document.addEventListener(
+  "keydown",
+  event => {
+
+    if(event.key!=="Escape")
+      return;
+
+    document.querySelectorAll(".multi.open").forEach(
+      box => {
+        box.classList.remove("open");
+        box.querySelector(".multiButton").setAttribute(
+          "aria-expanded",
+          "false"
+        );
+      }
+    );
+
+  }
+);
+
+
 createFilters();
+
+restoreStateFromUrl();
 
 
 setupMulti("resortMulti");
@@ -1180,6 +1328,11 @@ document.getElementById(
       "rating-desc";
 
 
+    document.getElementById(
+      "pageSize"
+    ).value="50";
+
+
     document
       .querySelectorAll(
         ".resort-filter,.rating-filter"
@@ -1262,10 +1415,18 @@ async function loadMaster() {
       );
 
 
+    updateFilterCounts();
+
+
+    const dateMatch = text.match(
+      /Контрольная версия на\s+(\d{2}\.\d{2}\.\d{4})/i
+    );
+
+
     document.getElementById(
       "status"
     ).textContent =
-      `Загружено отелей: ${hotels.length}`;
+      `Master-файл: ${dateMatch ? dateMatch[1] : "дата не указана"} · Отелей: ${hotels.length}`;
 
 
     render();
