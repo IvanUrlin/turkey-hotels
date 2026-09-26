@@ -206,6 +206,14 @@ td:nth-child(3) {
   overflow-wrap:anywhere;
 }
 
+.hotel-aliases {
+  margin-top:4px;
+  color:#666;
+  font-size:.85em;
+  font-weight:400;
+  line-height:1.3;
+}
+
 .resort {
   color:#555;
 }
@@ -1051,12 +1059,7 @@ function filteredHotels() {
           .toLocaleLowerCase("ru")
           .includes(query);
 
-        const metadata = Object.hasOwn(hotelMeta,hotel.hotel)
-          ? hotelMeta[hotel.hotel]
-          : null;
-        const aliases = metadata && Array.isArray(metadata.aliases)
-          ? metadata.aliases
-          : [];
+        const aliases = hotelAliases(hotel.hotel);
 
         const aliasMatch = aliases.some(
           alias => typeof alias==="string" &&
@@ -1124,6 +1127,22 @@ function escapeHtml(value) {
     .replaceAll("&","&amp;")
     .replaceAll("<","&lt;")
     .replaceAll(">","&gt;");
+
+}
+
+
+function hotelAliases(hotelName) {
+
+  const metadata = Object.hasOwn(hotelMeta,hotelName)
+    ? hotelMeta[hotelName]
+    : null;
+
+  if(!metadata || !Array.isArray(metadata.aliases))
+    return [];
+
+  return metadata.aliases.filter(
+    alias => typeof alias==="string" && alias.trim()
+  );
 
 }
 
@@ -1258,11 +1277,20 @@ function render() {
     "hotelRows"
   ).innerHTML =
     pageHotels.map(
-      hotel => `
+      hotel => {
+
+        const aliases = hotelAliases(hotel.hotel);
+
+        return `
         <tr>
 
           <td class="hotel">
             ${escapeHtml(hotel.hotel)}
+            ${aliases.length ? `
+              <div class="hotel-aliases">
+                Также известен как: ${aliases.map(alias => escapeHtml(alias)).join(", ")}
+              </div>
+            ` : ""}
           </td>
 
           <td class="resort">
@@ -1276,7 +1304,9 @@ function render() {
           </td>
 
         </tr>
-      `
+      `;
+
+      }
     ).join("");
 
 
