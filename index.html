@@ -138,12 +138,21 @@ button {
   cursor:pointer;
 }
 
-.reset {
+.reset,
+.copy-link {
   min-height:46px;
   border:1px solid #bbb;
   background:#fff;
   border-radius:10px;
   font-size:15px;
+  padding:9px 14px;
+}
+
+.copy-link {
+  color:#fff;
+  background:#315f72;
+  border-color:#315f72;
+  white-space:nowrap;
 }
 
 .count {
@@ -156,7 +165,7 @@ button {
   background:#fff;
   border:1px solid #ddd;
   border-radius:14px;
-  overflow:hidden;
+  overflow:clip;
 }
 
 table {
@@ -202,9 +211,27 @@ td:nth-child(3) {
 }
 
 .rating {
-  font-weight:bold;
   white-space:nowrap;
 }
+
+.rating-badge {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:34px;
+  min-height:27px;
+  padding:3px 7px;
+  border-radius:999px;
+  font-size:13px;
+  font-weight:700;
+  line-height:1;
+}
+
+.rating-top { color:#fff; background:#28705e; }
+.rating-mid { color:#fff; background:#416b87; }
+.rating-two { color:#4c3500; background:#f1cf70; }
+.rating-one { color:#fff; background:#b95c26; }
+.rating-low { color:#fff; background:#973b3b; }
 
 .pagination {
   display:flex;
@@ -248,23 +275,36 @@ td:nth-child(3) {
     padding:9px 6px;
   }
 
+  thead th {
+    position:sticky;
+    top:0;
+    z-index:2;
+  }
+
   th:nth-child(1),
   td:nth-child(1) {
-    width:59%;
+    width:62%;
   }
 
   th:nth-child(2),
   td:nth-child(2) {
-    width:27%;
+    width:25%;
+    overflow-wrap:anywhere;
   }
 
   th:nth-child(3),
   td:nth-child(3) {
-    width:14%;
+    width:13%;
+    padding-left:2px;
+    padding-right:2px;
   }
 
   .tools {
     grid-template-columns:1fr;
+  }
+
+  .copy-link {
+    width:100%;
   }
 }
 </style>
@@ -369,6 +409,10 @@ td:nth-child(3) {
 
   <button id="reset" class="reset">
     Сбросить фильтры
+  </button>
+
+  <button id="copyLink" class="copy-link" type="button" aria-live="polite">
+    Скопировать ссылку
   </button>
 
 </div>
@@ -1002,6 +1046,25 @@ function escapeHtml(value) {
 }
 
 
+function ratingBadgeClass(rating) {
+
+  if(["5","4","3.5"].includes(rating))
+    return "rating-top";
+
+  if(["3+","3","3−"].includes(rating))
+    return "rating-mid";
+
+  if(["2+","2","2−"].includes(rating))
+    return "rating-two";
+
+  if(["1+","1","1−"].includes(rating))
+    return "rating-one";
+
+  return "rating-low";
+
+}
+
+
 function render() {
 
   updateSummaries();
@@ -1066,7 +1129,9 @@ function render() {
           </td>
 
           <td class="rating">
-            ${hotel.rating}
+            <span class="rating-badge ${ratingBadgeClass(hotel.rating)}">
+              ${hotel.rating}
+            </span>
           </td>
 
         </tr>
@@ -1345,6 +1410,79 @@ document.getElementById(
     currentPage=1;
 
     render();
+
+  };
+
+
+function fallbackCopy(text) {
+
+  const textarea = document.createElement("textarea");
+  let copied = false;
+
+  textarea.value = text;
+  textarea.setAttribute("readonly","");
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+
+  document.body.appendChild(textarea);
+  textarea.select();
+
+  try {
+
+    copied = document.execCommand("copy");
+
+  } catch(error) {
+
+    copied = false;
+
+  }
+
+  textarea.remove();
+
+  return copied;
+
+}
+
+
+document.getElementById(
+  "copyLink"
+).onclick =
+  async event => {
+
+    saveStateToUrl();
+
+    const button = event.currentTarget;
+    const url = location.href;
+    let copied = false;
+
+    if(navigator.clipboard?.writeText) {
+
+      try {
+
+        await navigator.clipboard.writeText(url);
+        copied = true;
+
+      } catch(error) {
+
+        copied = fallbackCopy(url);
+
+      }
+
+    } else {
+
+      copied = fallbackCopy(url);
+
+    }
+
+    if(!copied)
+      return;
+
+    button.textContent = "Ссылка скопирована ✓";
+
+    setTimeout(
+      () => button.textContent = "Скопировать ссылку",
+      2000
+    );
 
   };
 
