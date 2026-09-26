@@ -1,243 +1,424 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Рейтинг отелей Турции</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Рейтинг отелей Турции</title>
 
-  <style>
-    * { box-sizing: border-box; }
+<style>
+* { box-sizing:border-box; }
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f6f8;
-      color: #202124;
-    }
+body {
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f5f6f8;
+  color:#202124;
+}
 
-    .wrap {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 16px;
-    }
+.wrap {
+  max-width:1000px;
+  margin:auto;
+  padding:14px;
+}
 
-    h1 {
-      margin: 4px 0 6px;
-      font-size: 26px;
-    }
+h1 {
+  margin:4px 0;
+  font-size:26px;
+}
 
-    .sub {
-      color: #666;
-      margin-bottom: 18px;
-      font-size: 14px;
-    }
+.sub {
+  color:#666;
+  margin-bottom:16px;
+}
 
-    .panel {
-      background: white;
-      border-radius: 14px;
-      padding: 14px;
-      margin-bottom: 14px;
-      border: 1px solid #ddd;
-    }
+.panel {
+  background:#fff;
+  border:1px solid #ddd;
+  border-radius:14px;
+  padding:12px;
+  margin-bottom:12px;
+}
 
-    input[type="search"] {
-      width: 100%;
-      padding: 12px;
-      font-size: 16px;
-      border-radius: 10px;
-      border: 1px solid #bbb;
-    }
+input[type=search],
+select {
+  width:100%;
+  min-height:46px;
+  border:1px solid #bbb;
+  border-radius:10px;
+  padding:10px 12px;
+  font-size:16px;
+  background:#fff;
+}
 
-    .filter-title {
-      font-weight: bold;
-      margin: 0 0 8px;
-    }
+.filters {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
 
-    .chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 7px;
-    }
+.multi {
+  position:relative;
+}
 
-    .chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      border: 1px solid #bbb;
-      border-radius: 20px;
-      padding: 7px 10px;
-      background: white;
-      cursor: pointer;
-      user-select: none;
-    }
+.multi > button {
+  width:100%;
+  min-height:46px;
+  text-align:left;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background:#fff;
+  border:1px solid #bbb;
+  border-radius:10px;
+  padding:10px 12px;
+  font-size:16px;
+}
 
-    .chip input {
-      margin: 0;
-    }
+.arrow {
+  font-size:13px;
+  color:#666;
+}
 
-    .tools {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 10px;
-    }
+.menu {
+  display:none;
+  position:absolute;
+  z-index:100;
+  top:52px;
+  left:0;
+  right:0;
+  background:#fff;
+  border:1px solid #bbb;
+  border-radius:12px;
+  padding:8px;
+  box-shadow:0 6px 20px rgba(0,0,0,.16);
+  max-height:360px;
+  overflow:auto;
+}
 
-    button, select {
-      padding: 9px 11px;
-      font-size: 14px;
-      border-radius: 9px;
-      border: 1px solid #bbb;
-      background: white;
-    }
+.multi.open .menu {
+  display:block;
+}
 
-    button {
-      cursor: pointer;
-    }
+.menu label {
+  display:flex;
+  align-items:center;
+  min-height:42px;
+  gap:8px;
+  padding:4px 6px;
+}
 
-    .count {
-      margin: 12px 0;
-      font-weight: bold;
-    }
+.menu input {
+  width:21px;
+  height:21px;
+}
 
-    .table-wrap {
-      overflow-x: auto;
-      background: white;
-      border: 1px solid #ddd;
-      border-radius: 14px;
-    }
+.menu-tools {
+  display:flex;
+  gap:6px;
+  border-bottom:1px solid #eee;
+  padding-bottom:7px;
+  margin-bottom:5px;
+}
 
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      min-width: 520px;
-    }
+.menu-tools button {
+  flex:1;
+  border:1px solid #ccc;
+  background:#f7f7f7;
+  border-radius:8px;
+  padding:8px 5px;
+}
 
-    th, td {
-      padding: 10px 12px;
-      text-align: left;
-      border-bottom: 1px solid #eee;
-    }
+.tools {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
 
-    th {
-      background: #f0f1f3;
-      position: sticky;
-      top: 0;
-    }
+button {
+  cursor:pointer;
+}
 
-    .rating {
-      font-weight: bold;
-      white-space: nowrap;
-    }
+.reset {
+  min-height:46px;
+  border:1px solid #bbb;
+  background:#fff;
+  border-radius:10px;
+  font-size:15px;
+}
 
-    .pagination {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 10px;
-      margin-top: 14px;
-    }
+.count {
+  margin:14px 2px;
+  font-size:18px;
+  font-weight:bold;
+}
 
-    .error {
-      background: #fff0f0;
-      border: 1px solid #e2aaaa;
-      padding: 12px;
-      border-radius: 10px;
-      margin-top: 12px;
-    }
+.table-wrap {
+  background:#fff;
+  border:1px solid #ddd;
+  border-radius:14px;
+  overflow:hidden;
+}
 
-    @media (max-width: 600px) {
-      .wrap { padding: 10px; }
+table {
+  width:100%;
+  border-collapse:collapse;
+  table-layout:fixed;
+}
 
-      h1 { font-size: 22px; }
+th,td {
+  border-bottom:1px solid #eee;
+  padding:10px 9px;
+  text-align:left;
+  vertical-align:top;
+}
 
-      th, td {
-        padding: 9px 8px;
-        font-size: 14px;
-      }
-    }
-  </style>
+th {
+  background:#f0f1f3;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width:61%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width:25%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width:14%;
+  text-align:center;
+}
+
+.hotel {
+  font-weight:500;
+  overflow-wrap:anywhere;
+}
+
+.resort {
+  color:#555;
+}
+
+.rating {
+  font-weight:bold;
+  white-space:nowrap;
+}
+
+.pagination {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:8px;
+  margin-top:12px;
+}
+
+.pagination button {
+  min-height:44px;
+  border:1px solid #bbb;
+  border-radius:9px;
+  background:#fff;
+  padding:8px 13px;
+}
+
+.pagination button:disabled {
+  opacity:.4;
+}
+
+.error {
+  background:#fff0f0;
+  border:1px solid #e0aaaa;
+  border-radius:10px;
+  padding:12px;
+  margin:12px 0;
+}
+
+@media(max-width:600px) {
+  .wrap { padding:10px; }
+
+  h1 { font-size:23px; }
+
+  .filters {
+    grid-template-columns:1fr;
+  }
+
+  th,td {
+    font-size:13px;
+    padding:9px 6px;
+  }
+
+  th:nth-child(1),
+  td:nth-child(1) {
+    width:59%;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    width:27%;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3) {
+    width:14%;
+  }
+
+  .tools {
+    grid-template-columns:1fr;
+  }
+}
+</style>
 </head>
 
 <body>
+
 <div class="wrap">
 
-  <h1>Отели Турции</h1>
-  <div class="sub" id="status">Загрузка master-файла…</div>
+<h1>Отели Турции</h1>
+<div id="status" class="sub">
+  Загрузка master-файла…
+</div>
 
-  <div class="panel">
-    <input
-      id="search"
-      type="search"
-      placeholder="Поиск по названию отеля"
-    >
-  </div>
+<div class="panel">
+  <input
+    id="search"
+    type="search"
+    placeholder="Поиск по названию отеля"
+  >
+</div>
 
-  <div class="panel">
-    <div class="filter-title">Курорт</div>
-    <div id="resortFilters" class="chips"></div>
+<div class="panel filters">
 
-    <div class="tools">
-      <button id="allResorts">Выбрать все</button>
-      <button id="noResorts">Снять все</button>
+  <div class="multi" id="resortMulti">
+    <button type="button" class="multiButton">
+      <span id="resortSummary">Все курорты</span>
+      <span class="arrow">▼</span>
+    </button>
+
+    <div class="menu">
+
+      <div class="menu-tools">
+        <button type="button" id="allResorts">
+          Все
+        </button>
+
+        <button type="button" id="noResorts">
+          Снять
+        </button>
+      </div>
+
+      <div id="resortFilters"></div>
+
     </div>
   </div>
 
-  <div class="panel">
-    <div class="filter-title">Рейтинг</div>
-    <div id="ratingFilters" class="chips"></div>
 
-    <div class="tools">
-      <button id="allRatings">Выбрать все</button>
-      <button id="noRatings">Снять все</button>
+  <div class="multi" id="ratingMulti">
+
+    <button type="button" class="multiButton">
+      <span id="ratingSummary">Все рейтинги</span>
+      <span class="arrow">▼</span>
+    </button>
+
+    <div class="menu">
+
+      <div class="menu-tools">
+        <button type="button" id="allRatings">
+          Все
+        </button>
+
+        <button type="button" id="noRatings">
+          Снять
+        </button>
+      </div>
+
+      <div id="ratingFilters"></div>
+
     </div>
-  </div>
-
-  <div class="panel">
-    <div class="tools">
-      <select id="sort">
-        <option value="rating-desc">Рейтинг: высокий → низкий</option>
-        <option value="rating-asc">Рейтинг: низкий → высокий</option>
-        <option value="name">Название</option>
-        <option value="resort">Курорт</option>
-      </select>
-
-      <select id="pageSize">
-        <option value="25">25 на странице</option>
-        <option value="50" selected>50 на странице</option>
-        <option value="100">100 на странице</option>
-      </select>
-
-      <button id="reset">Сбросить фильтры</button>
-    </div>
-  </div>
-
-  <div id="count" class="count"></div>
-
-  <div id="error"></div>
-
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr>
-          <th>Отель</th>
-          <th>Курорт</th>
-          <th>Рейтинг</th>
-        </tr>
-      </thead>
-      <tbody id="hotelRows"></tbody>
-    </table>
-  </div>
-
-  <div class="pagination">
-    <button id="prev">← Назад</button>
-    <span id="pageInfo"></span>
-    <button id="next">Вперёд →</button>
   </div>
 
 </div>
 
+
+<div class="panel tools">
+
+  <select id="sort">
+    <option value="rating-desc">
+      Рейтинг: высокий → низкий
+    </option>
+
+    <option value="rating-asc">
+      Рейтинг: низкий → высокий
+    </option>
+
+    <option value="name">
+      Название
+    </option>
+
+    <option value="resort">
+      Курорт
+    </option>
+  </select>
+
+
+  <select id="pageSize">
+    <option value="25">25 на странице</option>
+    <option value="50" selected>50 на странице</option>
+    <option value="100">100 на странице</option>
+  </select>
+
+  <button id="reset" class="reset">
+    Сбросить фильтры
+  </button>
+
+</div>
+
+
+<div id="count" class="count"></div>
+
+<div id="error"></div>
+
+
+<div class="table-wrap">
+
+<table>
+
+<thead>
+<tr>
+  <th>Отель</th>
+  <th>Курорт</th>
+  <th>Рейт.</th>
+</tr>
+</thead>
+
+<tbody id="hotelRows"></tbody>
+
+</table>
+
+</div>
+
+
+<div class="pagination">
+
+<button id="prev">
+  ← Назад
+</button>
+
+<span id="pageInfo"></span>
+
+<button id="next">
+  Вперёд →
+</button>
+
+</div>
+
+</div>
+
+
 <script>
+
 const MASTER_URL = "./hotels-master.txt";
+
 
 const resorts = [
   "Анталья",
@@ -247,6 +428,7 @@ const resorts = [
   "Алания",
   "Кемер"
 ];
+
 
 const ratings = [
   "5",
@@ -267,426 +449,855 @@ const ratings = [
   "−1"
 ];
 
+
 const sectionMap = [
-  ["АНТАЛЬЯ / КОНЬЯАЛТЫ / ФАЛЕЗЫ", "Анталья"],
-  ["ЛАРА / КУНДУ", "Лара"],
-  ["БЕЛЕК / КАДРИЕ / БОГАЗКЕНТ", "Белек"],
-  ["СИДЕ / МАНАВГАТ", "Сиде"],
-  ["АЛАНЬЯ / АВСАЛЛАР / ИНЖЕКУМ / КОНАКЛЫ / ОКУРДЖАЛАР", "Алания"],
-  ["КЕМЕР", "Кемер"]
+
+  ["АНТАЛЬЯ / КОНЬЯАЛТЫ / ФАЛЕЗЫ","Анталья"],
+
+  ["ЛАРА / КУНДУ","Лара"],
+
+  ["БЕЛЕК / КАДРИЕ / БОГАЗКЕНТ","Белек"],
+
+  ["СИДЕ / МАНАВГАТ","Сиде"],
+
+  [
+    "АЛАНЬЯ / АВСАЛЛАР / ИНЖЕКУМ / КОНАКЛЫ / ОКУРДЖАЛАР",
+    "Алания"
+  ],
+
+  ["КЕМЕР","Кемер"]
 ];
 
+
 const ratingRank = new Map(
-  ratings.map((rating, index) => [rating, index])
+  ratings.map((rating,index)=>[
+    rating,
+    index
+  ])
 );
 
+
 let hotels = [];
+
 let currentPage = 1;
 
+
 function normalizeRating(value) {
+
   return value
     .trim()
-    .replace(/-/g, "−");
+    .replace(/-/g,"−");
+
 }
 
+
 function detectResort(line) {
-  for (const [heading, resort] of sectionMap) {
-    if (line.trim() === heading) return resort;
+
+  for(const [heading,resort] of sectionMap) {
+
+    if(line.trim()===heading)
+      return resort;
+
   }
+
   return null;
 }
+
 
 function parseMaster(text) {
 
   const lines = text
-    .replace(/\r/g, "")
+    .replace(/\r/g,"")
     .split("\n")
-    .map(line => line.trim());
+    .map(line=>line.trim());
+
 
   const result = [];
 
+
   let resort = null;
+
   let rating = null;
-  let activeClassification = false;
 
-  for (const line of lines) {
+  let active = false;
 
-    if (!line) continue;
 
-    const detectedResort = detectResort(line);
+  for(const line of lines) {
 
-    if (detectedResort) {
-      resort = detectedResort;
+    if(!line)
+      continue;
+
+
+    const detected = detectResort(line);
+
+
+    if(detected) {
+
+      resort = detected;
+
       rating = null;
-      activeClassification = true;
+
+      active = true;
+
       continue;
     }
 
-    if (!resort) continue;
 
-    if (
+    if(!resort)
+      continue;
+
+
+    if(
       line.startsWith("РЕБРЕНДИНГИ") ||
       line.startsWith("НЕ СОЗДАВАТЬ") ||
       line.startsWith("ВНЕ ОСНОВНОЙ") ||
       line.startsWith("ФИНАЛЬНЫЕ РЕШЕНИЯ")
     ) {
-      activeClassification = false;
+
+      active = false;
+
       rating = null;
+
       continue;
     }
 
-    if (!activeClassification) continue;
 
-    const levelMatch = line.match(
-      /^УРОВЕНЬ\s+(5|4|3\.5|3|2|1|0|−1|-1)$/
-    );
+    if(!active)
+      continue;
 
-    if (levelMatch) {
 
-      const level = normalizeRating(levelMatch[1]);
+    const levelMatch =
+      line.match(
+        /^УРОВЕНЬ\s+(5|4|3\.5|3|2|1|0|−1|-1)$/
+      );
 
-      if (
-        level === "5" ||
-        level === "4" ||
-        level === "3.5" ||
-        level === "−1"
+
+    if(levelMatch) {
+
+      const level =
+        normalizeRating(levelMatch[1]);
+
+
+      if(
+        level==="5" ||
+        level==="4" ||
+        level==="3.5" ||
+        level==="−1"
       ) {
+
         rating = level;
+
       } else {
+
         rating = null;
+
       }
 
       continue;
     }
 
-    if (ratings.includes(normalizeRating(line))) {
-      rating = normalizeRating(line);
+
+    const normalized =
+      normalizeRating(line);
+
+
+    if(ratings.includes(normalized)) {
+
+      rating = normalized;
+
       continue;
     }
 
-    /*
-      В блоке Кемера строки выглядят так:
 
-      Бельдиби — 2+
-      Гёйнюк — 2
-      Кемер-центр — 2−
-    */
+    const kemerRating =
+      line.match(
+        /—\s*(2\+|2|2−|2-)$/
+      );
 
-    const kemerRating = line.match(
-      /—\s*(2\+|2|2−|2-)$/
-    );
 
-    if (resort === "Кемер" && kemerRating) {
-      rating = normalizeRating(kemerRating[1]);
+    if(
+      resort==="Кемер" &&
+      kemerRating
+    ) {
+
+      rating =
+        normalizeRating(
+          kemerRating[1]
+        );
+
       continue;
     }
 
-    if (
+
+    if(
       line.startsWith("- ") &&
       rating &&
       ratings.includes(rating)
     ) {
 
-      const hotel = line.slice(2).trim();
+      const hotel =
+        line.slice(2).trim();
 
-      if (hotel) {
+
+      if(hotel) {
+
         result.push({
           hotel,
           resort,
           rating
         });
+
       }
     }
   }
 
+
   return result;
 }
 
+
 function createFilters() {
 
-  const resortBox =
-    document.getElementById("resortFilters");
+  document.getElementById(
+    "resortFilters"
+  ).innerHTML = resorts.map(
+    resort => `
+      <label>
+        <input
+          type="checkbox"
+          class="resort-filter"
+          value="${resort}"
+          checked
+        >
+        ${resort}
+      </label>
+    `
+  ).join("");
 
-  const ratingBox =
-    document.getElementById("ratingFilters");
 
-  resortBox.innerHTML = resorts.map(resort => `
-    <label class="chip">
-      <input
-        type="checkbox"
-        class="resort-filter"
-        value="${resort}"
-        checked
-      >
-      ${resort}
-    </label>
-  `).join("");
+  document.getElementById(
+    "ratingFilters"
+  ).innerHTML = ratings.map(
+    rating => `
+      <label>
+        <input
+          type="checkbox"
+          class="rating-filter"
+          value="${rating}"
+          checked
+        >
+        ${rating}
+      </label>
+    `
+  ).join("");
 
-  ratingBox.innerHTML = ratings.map(rating => `
-    <label class="chip">
-      <input
-        type="checkbox"
-        class="rating-filter"
-        value="${rating}"
-        checked
-      >
-      ${rating}
-    </label>
-  `).join("");
 }
 
-function checkedValues(selector) {
+
+function selectedValues(selector) {
+
   return new Set(
-    [...document.querySelectorAll(selector + ":checked")]
-      .map(el => el.value)
+    [
+      ...document.querySelectorAll(
+        selector + ":checked"
+      )
+    ].map(el=>el.value)
   );
+
 }
 
-function getFilteredHotels() {
+
+function updateSummaries() {
 
   const selectedResorts =
-    checkedValues(".resort-filter");
+    [...selectedValues(
+      ".resort-filter"
+    )];
+
 
   const selectedRatings =
-    checkedValues(".rating-filter");
+    [...selectedValues(
+      ".rating-filter"
+    )];
+
+
+  document.getElementById(
+    "resortSummary"
+  ).textContent =
+    makeSummary(
+      selectedResorts,
+      resorts,
+      "Все курорты",
+      "Курортов"
+    );
+
+
+  document.getElementById(
+    "ratingSummary"
+  ).textContent =
+    makeSummary(
+      selectedRatings,
+      ratings,
+      "Все рейтинги",
+      "Рейтингов"
+    );
+
+}
+
+
+function makeSummary(
+  selected,
+  all,
+  allText,
+  countText
+) {
+
+  if(selected.length===all.length)
+    return allText;
+
+
+  if(selected.length===0)
+    return "Не выбрано";
+
+
+  if(selected.length<=2)
+    return selected.join(", ");
+
+
+  return `${countText}: ${selected.length}`;
+
+}
+
+
+function filteredHotels() {
+
+  const selectedResorts =
+    selectedValues(
+      ".resort-filter"
+    );
+
+
+  const selectedRatings =
+    selectedValues(
+      ".rating-filter"
+    );
+
 
   const query =
-    document.getElementById("search")
+    document
+      .getElementById("search")
       .value
       .trim()
       .toLocaleLowerCase("ru");
 
+
   const sort =
-    document.getElementById("sort").value;
+    document
+      .getElementById("sort")
+      .value;
 
-  let result = hotels.filter(hotel => {
 
-    if (!selectedResorts.has(hotel.resort))
-      return false;
+  let result =
+    hotels.filter(hotel => {
 
-    if (!selectedRatings.has(hotel.rating))
-      return false;
+      if(
+        !selectedResorts.has(
+          hotel.resort
+        )
+      )
+        return false;
 
-    if (
-      query &&
-      !hotel.hotel
-        .toLocaleLowerCase("ru")
-        .includes(query)
-    )
-      return false;
 
-    return true;
-  });
+      if(
+        !selectedRatings.has(
+          hotel.rating
+        )
+      )
+        return false;
 
-  result.sort((a, b) => {
 
-    if (sort === "name")
-      return a.hotel.localeCompare(b.hotel, "ru");
+      if(
+        query &&
+        !hotel.hotel
+          .toLocaleLowerCase("ru")
+          .includes(query)
+      )
+        return false;
 
-    if (sort === "resort")
+
+      return true;
+
+    });
+
+
+  result.sort((a,b)=>{
+
+
+    if(sort==="name")
+
+      return a.hotel.localeCompare(
+        b.hotel,
+        "ru"
+      );
+
+
+    if(sort==="resort")
+
       return (
-        a.resort.localeCompare(b.resort, "ru") ||
+        a.resort.localeCompare(
+          b.resort,
+          "ru"
+        ) ||
         ratingRank.get(a.rating) -
         ratingRank.get(b.rating)
       );
 
-    if (sort === "rating-asc")
+
+    if(sort==="rating-asc")
+
       return (
         ratingRank.get(b.rating) -
         ratingRank.get(a.rating)
       );
 
+
     return (
       ratingRank.get(a.rating) -
       ratingRank.get(b.rating)
     );
+
   });
 
+
   return result;
+
 }
 
+
 function escapeHtml(value) {
+
   return value
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;");
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;");
+
 }
+
 
 function render() {
 
-  const filtered = getFilteredHotels();
+  updateSummaries();
+
+
+  const filtered =
+    filteredHotels();
+
 
   const pageSize =
-    Number(document.getElementById("pageSize").value);
+    Number(
+      document
+        .getElementById("pageSize")
+        .value
+    );
+
 
   const pages =
-    Math.max(1, Math.ceil(filtered.length / pageSize));
+    Math.max(
+      1,
+      Math.ceil(
+        filtered.length /
+        pageSize
+      )
+    );
 
-  if (currentPage > pages)
-    currentPage = pages;
+
+  currentPage =
+    Math.min(
+      currentPage,
+      pages
+    );
+
 
   const start =
-    (currentPage - 1) * pageSize;
+    (currentPage-1) *
+    pageSize;
+
 
   const pageHotels =
-    filtered.slice(start, start + pageSize);
+    filtered.slice(
+      start,
+      start+pageSize
+    );
 
-  document.getElementById("hotelRows").innerHTML =
-    pageHotels.map(hotel => `
-      <tr>
-        <td>${escapeHtml(hotel.hotel)}</td>
-        <td>${hotel.resort}</td>
-        <td class="rating">${hotel.rating}</td>
-      </tr>
-    `).join("");
 
-  document.getElementById("count").textContent =
+  document.getElementById(
+    "hotelRows"
+  ).innerHTML =
+    pageHotels.map(
+      hotel => `
+        <tr>
+
+          <td class="hotel">
+            ${escapeHtml(hotel.hotel)}
+          </td>
+
+          <td class="resort">
+            ${hotel.resort}
+          </td>
+
+          <td class="rating">
+            ${hotel.rating}
+          </td>
+
+        </tr>
+      `
+    ).join("");
+
+
+  document.getElementById(
+    "count"
+  ).textContent =
     `Найдено: ${filtered.length} из ${hotels.length}`;
 
-  document.getElementById("pageInfo").textContent =
+
+  document.getElementById(
+    "pageInfo"
+  ).textContent =
     `Страница ${currentPage} из ${pages}`;
 
-  document.getElementById("prev").disabled =
-    currentPage <= 1;
 
-  document.getElementById("next").disabled =
-    currentPage >= pages;
+  document.getElementById(
+    "prev"
+  ).disabled =
+    currentPage<=1;
+
+
+  document.getElementById(
+    "next"
+  ).disabled =
+    currentPage>=pages;
+
 }
 
-function resetPageAndRender() {
-  currentPage = 1;
+
+function resetPage() {
+
+  currentPage=1;
+
   render();
+
 }
 
-function selectAll(selector, checked) {
+
+function setAll(
+  selector,
+  checked
+) {
+
   document
     .querySelectorAll(selector)
-    .forEach(el => el.checked = checked);
+    .forEach(
+      el=>el.checked=checked
+    );
 
-  resetPageAndRender();
+
+  resetPage();
+
 }
+
+
+function setupMulti(id) {
+
+  const box =
+    document.getElementById(id);
+
+
+  const button =
+    box.querySelector(
+      ".multiButton"
+    );
+
+
+  button.addEventListener(
+    "click",
+    event => {
+
+      event.stopPropagation();
+
+
+      document
+        .querySelectorAll(
+          ".multi"
+        )
+        .forEach(
+          other => {
+
+            if(other!==box)
+              other.classList.remove(
+                "open"
+              );
+
+          }
+        );
+
+
+      box.classList.toggle(
+        "open"
+      );
+
+    }
+  );
+
+
+  box.querySelector(
+    ".menu"
+  ).addEventListener(
+    "click",
+    event =>
+      event.stopPropagation()
+  );
+
+}
+
+
+document.addEventListener(
+  "click",
+  () => {
+
+    document
+      .querySelectorAll(".multi")
+      .forEach(
+        box =>
+          box.classList.remove(
+            "open"
+          )
+      );
+
+  }
+);
+
+
+createFilters();
+
+
+setupMulti("resortMulti");
+
+setupMulti("ratingMulti");
+
+
+document.addEventListener(
+  "change",
+  event => {
+
+    if(
+      event.target.matches(
+        ".resort-filter, .rating-filter"
+      )
+    )
+      resetPage();
+
+  }
+);
+
+
+document.getElementById(
+  "search"
+).addEventListener(
+  "input",
+  resetPage
+);
+
+
+document.getElementById(
+  "sort"
+).addEventListener(
+  "change",
+  resetPage
+);
+
+
+document.getElementById(
+  "pageSize"
+).addEventListener(
+  "change",
+  resetPage
+);
+
+
+document.getElementById(
+  "allResorts"
+).onclick =
+  () =>
+    setAll(
+      ".resort-filter",
+      true
+    );
+
+
+document.getElementById(
+  "noResorts"
+).onclick =
+  () =>
+    setAll(
+      ".resort-filter",
+      false
+    );
+
+
+document.getElementById(
+  "allRatings"
+).onclick =
+  () =>
+    setAll(
+      ".rating-filter",
+      true
+    );
+
+
+document.getElementById(
+  "noRatings"
+).onclick =
+  () =>
+    setAll(
+      ".rating-filter",
+      false
+    );
+
+
+document.getElementById(
+  "reset"
+).onclick =
+  () => {
+
+    document.getElementById(
+      "search"
+    ).value="";
+
+
+    document.getElementById(
+      "sort"
+    ).value=
+      "rating-desc";
+
+
+    document
+      .querySelectorAll(
+        ".resort-filter,.rating-filter"
+      )
+      .forEach(
+        el=>el.checked=true
+      );
+
+
+    currentPage=1;
+
+    render();
+
+  };
+
+
+document.getElementById(
+  "prev"
+).onclick =
+  () => {
+
+    if(currentPage>1) {
+
+      currentPage--;
+
+      render();
+
+    }
+
+  };
+
+
+document.getElementById(
+  "next"
+).onclick =
+  () => {
+
+    currentPage++;
+
+    render();
+
+  };
+
 
 async function loadMaster() {
 
   try {
 
-    const response = await fetch(
-      MASTER_URL + "?v=" + Date.now(),
-      { cache: "no-store" }
-    );
-
-    if (!response.ok)
-      throw new Error(
-        "HTTP " + response.status
+    const response =
+      await fetch(
+        MASTER_URL +
+        "?v=" +
+        Date.now(),
+        {
+          cache:"no-store"
+        }
       );
 
-    const text = await response.text();
 
-    hotels = parseMaster(text);
+    if(!response.ok)
 
-    if (!hotels.length)
       throw new Error(
-        "Master загрузился, но отели не найдены"
+        "HTTP " +
+        response.status
       );
 
-    document.getElementById("status").textContent =
+
+    const text =
+      await response.text();
+
+
+    hotels =
+      parseMaster(text);
+
+
+    if(!hotels.length)
+
+      throw new Error(
+        "Отели не найдены"
+      );
+
+
+    document.getElementById(
+      "status"
+    ).textContent =
       `Загружено отелей: ${hotels.length}`;
+
 
     render();
 
-  } catch (error) {
 
-    document.getElementById("status").textContent =
+  } catch(error) {
+
+
+    document.getElementById(
+      "status"
+    ).textContent =
       "Ошибка загрузки master";
 
-    document.getElementById("error").innerHTML =
+
+    document.getElementById(
+      "error"
+    ).innerHTML =
       `<div class="error">
         Не удалось загрузить
-        <b>hotels_master.txt</b><br><br>
+        <b>hotels-master.txt</b>
+        <br><br>
         ${escapeHtml(error.message)}
       </div>`;
 
-    console.error(error);
   }
+
 }
 
-createFilters();
-
-document.addEventListener("change", event => {
-
-  if (
-    event.target.matches(
-      ".resort-filter, .rating-filter"
-    )
-  ) {
-    resetPageAndRender();
-  }
-});
-
-document.getElementById("search")
-  .addEventListener(
-    "input",
-    resetPageAndRender
-  );
-
-document.getElementById("sort")
-  .addEventListener(
-    "change",
-    resetPageAndRender
-  );
-
-document.getElementById("pageSize")
-  .addEventListener(
-    "change",
-    resetPageAndRender
-  );
-
-document.getElementById("allResorts")
-  .onclick =
-  () => selectAll(".resort-filter", true);
-
-document.getElementById("noResorts")
-  .onclick =
-  () => selectAll(".resort-filter", false);
-
-document.getElementById("allRatings")
-  .onclick =
-  () => selectAll(".rating-filter", true);
-
-document.getElementById("noRatings")
-  .onclick =
-  () => selectAll(".rating-filter", false);
-
-document.getElementById("reset")
-  .onclick = () => {
-
-    document.getElementById("search").value = "";
-
-    document.getElementById("sort").value =
-      "rating-desc";
-
-    selectAll(".resort-filter", true);
-    selectAll(".rating-filter", true);
-
-    currentPage = 1;
-    render();
-  };
-
-document.getElementById("prev")
-  .onclick = () => {
-    if (currentPage > 1) {
-      currentPage--;
-      render();
-    }
-  };
-
-document.getElementById("next")
-  .onclick = () => {
-    currentPage++;
-    render();
-  };
 
 loadMaster();
+
 </script>
+
 </body>
 </html>
