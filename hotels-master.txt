@@ -1,0 +1,1055 @@
+МАСТЕР-ФАЙЛ — ФИНАЛЬНАЯ КЛАССИФИКАЦИЯ КУРОРТНЫХ ОТЕЛЕЙ АНТАЛИЙСКОГО ПОБЕРЕЖЬЯ ТУРЦИИ
+Контрольная версия на 26.09.2026, после расширенного аудита полноты
+
+ШКАЛА
+5   — Ultra-luxury / exclusive standalone or resort-within-resort products
+4   — Luxury
+3.5 — Upper Premium / Near-Luxury
+3   — High-end Premium
+2   — крепкий Premium / качественный массовый resort/UAI
+1   — хороший массовый / бюджетный 5*
+0   — слабый бюджетный resort / формальные 4–5*, уже ниже уровня «хороший массовый»
+-1  — системно слабый / деградировавший продукт
+
+Внутренние отметки 3+, 3−, 2+, 2−, 1+, 1−, 0+, 0− обозначают положение внутри основного уровня.
+Каждый действующий классифицированный отель имеет одну итоговую позицию: пограничных диапазонов, кандидатов и контрольных оценок в этой версии нет.
+Оценивается базовый продукт отеля, а не цена и не рейтинг отзывов сами по себе. Свежие отзывы используются как проверка фактической реализации продукта.
+Ребрендинги и старые названия не создают отдельные строки.
+Статус: все региональные блоки прошли расширенный финальный аудит полноты на 26.09.2026.
+
+ВНЕ АКТИВНОЙ КЛАССИФИКАЦИИ 2026
+- Sentido Palmeras Lumare — открытие перенесено на 2027; рейтинговать до фактического запуска нельзя.
+- Sunrise Queen Resort Hotel / Sunrise Queen Luxury Resort & Spa — перезапуск 2026 сопровождался срывами бронирований и нестабильным статусом работы; в активный рейтинг 2026 не включать. Возвращать в шкалу после устойчивого полноценного сезона.
+- Defne Kumul Deluxe — закрыт 27.05.2026; возможный перезапуск не раньше 2027.
+
+======================================================================
+АНТАЛЬЯ / КОНЬЯАЛТЫ / ФАЛЕЗЫ
+======================================================================
+
+УРОВЕНЬ 5
+— нет зафиксированных
+
+УРОВЕНЬ 4
+— нет зафиксированных
+
+УРОВЕНЬ 3.5
+— нет зафиксированных
+
+УРОВЕНЬ 3
+3+
+- Akra Antalya
+  городской seaside premium, не классический UAI-мегарезорт
+
+УРОВЕНЬ 2
+2+
+- Rixos Downtown Antalya
+- Megasaray Westbeach Antalya
+
+2
+- Ramada Plaza by Wyndham Antalya
+- Porto Bello Hotel Resort & Spa
+- The Marmara Antalya
+- Sunis Hotel SU & Aqualand
+- Club Hotel Sera
+- Delta Hotels by Marriott Antalya Lara
+
+2−
+- Crowne Plaza Antalya
+- Sealife Family Resort Hotel
+
+УРОВЕНЬ 1
+1+
+- Falcon Hotel
+- Adonis Hotel
+- Holiday Inn Antalya - Lara
+
+УРОВЕНЬ 0
+0
+- Bilem Hotel Beach & Spa
+
+УРОВЕНЬ −1
+- Özkaymak Falez
+
+ВНЕ ОСНОВНОЙ RESORT/SEASIDE-ШКАЛЫ
+- Akra V — самостоятельный городской 4*, пользующийся инфраструктурой Akra Antalya; не отдельный resort-продукт
+- Nashira City Resort — городской продукт без полноценной beach-resort составляющей; не включать в основную шкалу.
+- Qinn Hotels, Peramis Hotel & Spa и La Boutique Hotel — малые city/boutique seaside-объекты; не включать в основную resort-шкалу.
+
+======================================================================
+ЛАРА / КУНДУ
+======================================================================
+
+УРОВЕНЬ 5
+- BAYOU Villas Lara
+
+УРОВЕНЬ 4
+— нет зафиксированных
+
+УРОВЕНЬ 3.5
+- Lara Barut Collection
+- Nirvana Cosmopolitan
+- Titanic Mardan Palace
+- Voyage Kundu
+
+УРОВЕНЬ 3
+3
+- Concorde De Luxe Resort
+- Delphin Imperial
+- Delphin BE Grand Resort
+- Delphin Neo Palace
+
+3−
+- Delphin Palace
+
+УРОВЕНЬ 2
+2+
+- Trendy Perge Resort & Suites
+- Titanic Deluxe Lara
+- Liberty Hotels Lara
+- Delphin Diva Premiere
+- Saturn Palace Resort
+- Sherwood Exclusive Lara
+- Royal Holiday Palace
+- IC Hotels Green Palace
+
+2
+- Adalya Elite Lara
+- Trendy Lara Hotel
+- Royal Wings Hotel
+- Baia Lara Hotel
+- Limak Lara De Luxe Hotel & Resort
+- Fame Residence Lara & SPA
+- Swandor Hotels & Resorts Topkapi Palace
+- Royal Seginus Hotel
+- Melas Lara Hotel
+- Crystal Centro Pearl Collection
+
+2−
+- Kremlin Palace
+- Ducale Lara
+- Miracle Resort Hotel
+- Aska Lara Resort & SPA
+
+УРОВЕНЬ 1
+1+
+- Corendon Grand Park Lara
+- Ramada Resort by Wyndham Lara
+- Greenwood Suites Resort
+- Wyndham Garden Lara
+- Wind of Lara
+
+УРОВЕНЬ 0
+— нет зафиксированных
+
+УРОВЕНЬ −1
+- Palmora Lara Hotel
+
+НЕ СОЗДАВАТЬ ОТДЕЛЬНЫЕ СТРОКИ
+- Aska River Side / River Suites — annex и часть продукта Aska Lara
+- IC Hotels Green Palace & Villas — единый комплекс; Villas отдельно не классифицируются
+- Palmora Lara Hotel = бывшие Palmet Family Lara / Armas Sunrise Lara / Jura Hotels Lara Resort / Zeyda Lara Hotel.
+- Lara Family Club = нынешний Wyndham Garden Lara.
+- Kervansaray Lara = нынешний Nirvana Cosmopolitan.
+- Kervansaray Kundu = нынешний Crystal Centro Pearl Collection.
+- WOW Topkapi Palace = нынешний Swandor Hotels & Resorts Topkapi Palace.
+- Venezia Palace = нынешний Ducale Lara.
+- Sirius Town Residence and Spa и Avullar Palace — residence/apartment-style объекты; в основную resort-шкалу не включать.
+
+======================================================================
+БЕЛЕК / КАДРИЕ / БОГАЗКЕНТ
+======================================================================
+
+УРОВЕНЬ 5
+- Regnum The Crown
+- Club Privé by Rixos Belek
+- Cornelia Azure Villas
+
+УРОВЕНЬ 4
+- Maxx Royal Belek Golf Resort
+- Regnum Carya
+- Cullinan Belek
+
+УРОВЕНЬ 3.5
+- ETHNO Belek
+- Gloria Serenity Resort
+- Voyage Belek Golf & Spa
+- Rixos Premium Belek
+- Kempinski Hotel The Dome
+
+УРОВЕНЬ 3
+3+
+- Calista Luxury Resort
+- Gloria Verde Resort
+- Gloria Golf Resort
+- Kaya Palazzo Golf Resort
+
+3
+- Ela Excellence Resort Belek
+- Cornelia Diamond Golf Resort & Spa
+- Papillon Zeugma Relaxury
+- Susesi Luxury Resort
+- Titanic Deluxe Golf Belek
+- Sueno Hotels Deluxe Belek
+- Güral Premier Belek
+- Selectum Luxury Resort Belek
+
+3−
+- Xanadu Resort
+- Bohemia Suites & Villas by Sirene
+
+УРОВЕНЬ 2
+2+
+- ROBINSON Nobilis
+- Papillon Ayscha
+- Bellis Deluxe
+- Megasaray Club Belek
+- IC Hotels Santai Family Resort
+- Sirene Belek Hotel
+- Dobedan Exclusive Hotel Belek
+- Papillon Belvil
+- Selectum Family Resort Belek
+- TUI Magic Life Masmavi
+- Port Nature Luxury Resort Hotel & Spa
+- Kaya Belek
+- Adora Hotel & Resort
+- Granada Luxury Belek
+- Belek Beach Resort Hotel
+- Adam & Eve
+- Rixos Park Belek
+- The X Belek
+- Sueno Hotels Golf Belek
+
+2
+- Paloma Grida
+- Paloma Sencia
+- Pine Beach Belek
+- TUI Magic Life Belek
+- Limak Atlantis Deluxe Hotel & Resort
+- Limak Arcadia Sport Resort
+- Spice Hotel & SPA
+- Belconti Resort Hotel
+- Kirman Belazur Resort & Spa
+- Crystal Tat Beach
+- TUI BLUE Belek
+- Green Max Hotel
+- Lykia World Antalya
+- Asteria Family Belek
+- SY Hotels Belek Boutique Luxury
+- Sentido Luna Vista Belek
+- Crystal Boutique Beach Resort 16+
+
+2−
+- Crystal Family Resort & Spa
+- Crystal Paraiso Verde Resort & SPA
+- Crystal Waterworld Resort & Spa
+- Sherwood Dreams Resort
+- Aydınbey Famous Resort
+- Orange County Belek – Family Concept
+- Selectum Noa Belek
+- Siam Elegance Hotels & Spa
+- Sensitive Premium Resort & Spa
+- Aydınbey Queen's Palace & Spa
+- Innvista Hotels Belek
+- Altis Resort Hotel
+
+УРОВЕНЬ 1
+1+
+- Maya World Park
+- Armas Life Belek
+- Belek Soho Beach Club
+
+1
+- Clover Magic Seagate Belek
+- Sarp Hotel Kadriye
+
+1−
+- Belenli Resort Hotel
+
+УРОВЕНЬ 0
+0−
+- Prenses Sealine Beach Hotel
+
+УРОВЕНЬ −1
+- Dionisus Hotel Belek
+- Belkon Hotel
+- My Belek Collection / ex Hotella Resort & Spa
+- Amon Hotels Belek
+
+ВНЕ ОСНОВНОЙ BEACH-RESORT ШКАЛЫ
+- The Land of Legends Kingdom Hotel — theme-park destination
+- The Land of Legends Nickelodeon Hotels & Resorts Antalya — theme-park destination
+- Mercure Antalya Belek — городской/не beach-resort формат; вне основной шкалы.
+- Black Royal Belek — городской/не beach-resort формат; вне основной шкалы.
+
+РЕБРЕНДИНГИ / НЕ ДУБЛИРОВАТЬ
+- Belkon Hotel = Belkon Club Hotel; один объект
+- Cornelia De Luxe Resort = нынешний Paloma Sencia
+- Asteria Family Belek = бывший Aquaworld Belek / TUI Magic Life Waterworld
+- нынешний TUI Magic Life Belek = бывший Club Asteria Belek
+- Titanic Luxury Collection Belek — не отдельный объект от Titanic Deluxe Golf Belek
+- Vera Club Hotel Paradiso = нынешний Crystal Paraiso Verde Resort & SPA.
+- Maya World Belek / Maya Melissa Garden = нынешний Amon Hotels Belek.
+- Cesars Temple = нынешний Selectum Noa Belek.
+- Letoonia Golf Resort = нынешний Selectum Family Resort Belek.
+- Attaleia Shine = нынешний Selectum Luxury Resort Belek.
+- Club Ali Bey Belek = нынешний Güral Premier Belek.
+- Vera Mare = нынешний Orange County Belek – Family Concept.
+
+======================================================================
+СИДЕ / МАНАВГАТ
+======================================================================
+
+УРОВЕНЬ 5
+- BIJAL
+
+УРОВЕНЬ 4
+— нет зафиксированных
+
+УРОВЕНЬ 3.5
+- Acanthus Cennet Barut Collection
+- Akra Sorgun
+
+УРОВЕНЬ 3
+3+
+- Voyage Sorgun
+- Arum Barut Collection
+- Barut Hemera
+- Paloma Finesse
+- LIU Resorts
+
+3
+- Miramare Beach
+- Ali Bey Resort Sorgun
+- Paloma Orenda
+- LUSSO Sorgun
+
+3−
+- Seaden Quality Resort & Spa
+- Commodore Elite Suites & Spa
+- Side Star Elegance
+- Barut GOIA
+- Kirman Calyptus Resort & Spa
+- Adalya Bliss
+
+УРОВЕНЬ 2
+2+
+- Arcanus Hotels Sorgun
+- LAGO Hotel
+- Sidemarin Kirman Premium
+- TUI BLUE Barut Andız
+- Paloma Oceana
+- Paloma Perissia
+- Sunis Kumköy Beach Resort & Spa
+- Trendy Verbena Beach
+- Aydınbey King's Palace & Spa
+- Side Star Beach
+- Melas Resort Hotel
+- TUI BLUE Side
+- Monachus Family Resort Sorgun
+- Royal Dragon Hotel
+- Kamelya Selin
+- Blue Waters Club
+- Turquoise Hotel
+- Megasaray Resort Side
+- ROBINSON Pamfilya
+- The Raga Side Fine Dining Adult Only
+- Dobedan Beach Resort Comfort
+- Miramare Queen
+- Side Sunport Hotel & Spa
+- Sunis Evren Beach Resort & Spa
+- Seashell Resort & Spa
+- Flora Garden Beach — Adults Only
+- Selectum Colours Side
+- TUI BLUE Xanthe
+- Luna Blanca Resort & Spa
+- Side Stella Elite Resort & Spa
+- Diamond Premium Hotel & Spa
+- Side Mare Resort & Spa
+- Crystal Sunset Pearl Collection
+- Adalya Ocean Deluxe
+- Trendy Palm Beach
+- Club Melas Privé
+- Diamond De Luxe
+- Arcanus Hotels Trendline Side
+- AQI Pegasos World
+- TUI KIDS CLUB Felicia Village
+- Hotel Oleander
+- Aletris Deluxe Hotel & Spa
+- Barut B Suites
+
+2
+- Victory Be Mine
+- Sueno Hotels Beach Side
+- Asteria Collection Side
+- Kaya Side
+- Marvida Family Eco
+- Seven Seas Hotel Blue
+- Selectum Family Resort Side
+- Selectum Family Comfort Side
+- Ali Bey Club Park Manavgat
+- TUI BLUE Palm Garden
+- Starlight Resort Hotel
+- Sunrise Resort Hotel
+- Club Nena
+- Kamelya Fulya
+- Kamelya Aishen Club
+- Alba Royal
+- Alba Queen
+- Alba Resort
+- VONRESORT Golden Coast
+- VONRESORT Elite
+- TUI Magic Life Jacaranda
+- Royal Alhambra Palace
+- Royal Taj Mahal
+- Diamond Excellence Resort & Spa
+- Side Star Resort
+- Adalya Art Side
+- Trendy Aspendos Beach
+- Royal Atlantis Spa & Resort
+- Calimera Serra Palace
+- Süral Saray
+- Bosphorus Sorgun
+- Terrace Beach Resort
+- Club Grand Side
+- Novum Garden Side
+- VONRESORT Golden Beach
+- Crystal Admiral Aqua Collection
+- Sunis Elita Beach
+- Hotel Turan Prince
+- Club Hotel Turan Prince World
+- Seaden Valentine Resort & Spa
+- Numa Club Side
+- Asteria Bloom Side
+- Asteria Family Resort Side
+- Arnor De Luxe
+- Alexia Resort & Spa
+- Glamour Resort & Spa
+- Club Grand Aqua
+- Defne Garden
+- Defne Star
+- Can Garden Resort
+- Can Garden Beach
+- Port Side Resort
+- Villa Side Residence
+- The Sense Deluxe
+- Diamond Elite Hotel & Spa
+- Side Aluna
+- Orange Palace Side
+- Calimera Hane Garden
+- Linda Sunny Beach
+- Monachus Hotel & Spa
+- Seher Side Quality Resort & Spa
+- J'adore Deluxe
+- Seashell Vega
+- Side Sun Hotel
+- Trendy Side Beach
+- Bella Resort & Spa
+- Nova Park Hotel
+- Side Lilyum Hotel & Spa
+- Hotel Grand Side
+- Victory Resort Hotel
+- Hotel Thalia Unique
+- İz Flower Side Beach Hotel
+- Hotel Defne Dream
+- Hotel Defne Ana
+- Selge Beach Resort & Spa
+
+2−
+- Süral Resort
+- Süral Hotel
+- Victory Volare Hotel
+- Sentido Serra Resort
+- Oz Side Premium
+- Castival Hotel
+- Terrace Elite Resort
+- Side Royal Palace
+- Side Royal Style
+- Seher Sun Palace
+- Royal Atlantis Icon
+- Royal Atlantis Beach
+- Seaden Sea World Resort & Spa
+- Seaden Sea Planet Resort & Spa
+- Seamelia Beach Resort
+- Water Side Resort & Spa
+- Dream World Hill
+- Dream World Aqua
+- Side Moon Palace
+- Çenger Blue Collection
+- Dream World Palace
+- Side Star Park
+- Side Breeze Hotel
+- Seher Kumköy Star
+- Hane Family Resort
+- Side Aquamarin Resort & Spa
+- Nerton Hotel 16+
+- Calimera Side Resort
+- Side Story Resort & Spa
+- Mary Hotel Side
+- Club Hotel Sidelya
+- Dream World Resort & Spa
+- Riolavitas Resort & Spa
+- Sunmelia Beach Resort
+- Side Zeugma
+- Calido Maris Hotel
+- LRS Port River Hotel & Spa
+- Roma Beach Resort & Spa 16+
+
+УРОВЕНЬ 1
+1+
+- Side Crown Serenity
+- Narcia Resort Side
+- Side Prenses Resort & Spa
+- Seher Resort & Spa
+- Grand Seker Hotel
+- Washington Resort & SPA
+- Serenis Hotel
+- Palm World Side Resort
+- Well Palace Side
+- alltoura Club Hotel Sidekum
+- Vox Maris Resort
+- Side Crown Palace
+- Süral Garden
+- Hane Sun Elite
+- Cesars Side
+- Febeach Hotel
+- Seaden Corolla
+- Horus Paradise Luxury Resort
+- Armella Hill
+- Sultan of Dreams
+- Alarcha Hotels & Resort
+- Sultan of Side
+- Villa Side Hotel
+- Side Village Hotel
+- FUN&SUN Smart Hane Sun Hotel
+- Sırma Hotel
+
+1
+- Çenger Beach Resort
+- LRS Lake & River Side Hotel & Spa
+- Side Alegria Hotel & Spa 16+
+- Armas Pemar Beach
+- Side Su Hotel
+- Side Golden Rock
+- Amelia Beach Resort Hotel & Spa
+- Bieno Club Venüs Hotel & Spa
+- Sun Club Side Hotel
+
+1−
+- Side Yeşilöz Hotel
+- Side West Park Hotel
+- Side West Resort Hotel
+- Sun Beach Park Hotel
+- Serra Park Hotel
+
+УРОВЕНЬ 0
+0+
+- Dream Family Club
+
+0
+- Side Win Hotel & Spa
+- Club Side Coast
+- Orfeus Park
+- Orfeus Queen Spa
+- Raymar Resort & Aqua
+
+0−
+- Hotel Kervan
+- Side Palm d'Or Hotel
+
+УРОВЕНЬ −1
+- Side Royal Paradise Hotel
+- Side Legend Hotel
+- Çınar Family Suite Hotel
+
+ВНЕ ОСНОВНОЙ RESORT-ШКАЛЫ
+- Side Temple Hotel
+- Side Löwe Hotel
+- Dream of Side
+
+РЕБРЕНДИНГИ / НЕ ДУБЛИРОВАТЬ
+- Side Aluna = бывший Diamond Beach Hotel & Spa
+- Asteria Family Resort Side = бывший Euphoria Palm Beach Resort
+- Asteria Bloom Side = бывший Selectum For Two
+- Asteria Collection Side — старые названия отдельно не добавлять
+- Sunrise Queen Resort Hotel = бывший Crystal Sunrise Queen; объект вынесен из активной классификации 2026 по операционному статусу, а не продублирован
+- Adalya Resort & Spa = нынешний Adalya Bliss.
+- Blue Side Hotel = нынешний TUI BLUE Side.
+- Side Crown Charm Palace = нынешний Well Palace Side.
+- Side Crown Sunshine = нынешний Seashell Vega.
+- Bieno Club Sunset = нынешний Linda Sunny Beach Hotel & Spa.
+- Primasol Hane Family = нынешний Hane Family Resort.
+- Hane Hotel = нынешний Seher Kumköy Star Resort & Spa.
+- Serra Garden / Primasol Serra Garden = нынешний Sentido Serra Resort.
+- Club Hane / Hane Club — закрыт; отдельно не добавлять.
+- Mary Palace Resort = нынешний Mary Hotel Side.
+- Seher Sun Beach = нынешний Side Story Resort & Spa.
+- Hotel Terrace = нынешний Terrace Beach Resort.
+- Silence Beach Resort = нынешний Selectum Family Resort Side.
+- Sensatori Sorgun / Barut Sorgun Sensatori = нынешний Akra Sorgun.
+- Saray Regency / Maritim Saray Regency / Armas Regency / Amara Family Resort = нынешний Asteria Collection Side.
+- Paradise Side Beach — закрытый predecessor; отдельно не добавлять.
+
+======================================================================
+АЛАНЬЯ / АВСАЛЛАР / ИНЖЕКУМ / КОНАКЛЫ / ОКУРДЖАЛАР
+======================================================================
+
+УРОВЕНЬ 5
+— нет зафиксированных
+
+УРОВЕНЬ 4
+— нет зафиксированных
+
+УРОВЕНЬ 3.5
+- Rubi Platinum Sign
+
+УРОВЕНЬ 3
+3+
+- Rubi Platinum Spa Resort & Suites
+
+3
+- Mylome Luxury Hotel & Resort
+- Delphin Deluxe
+- Botanik Platinum
+- Leodikya Kirman Premium
+
+3−
+- Arycanda Kirman Premium
+- Botanik Hotel & Resort
+- Sidera Kirman Premium
+- Granada Luxury Beach
+
+УРОВЕНЬ 2
+2+
+- Haydarpasha Palace
+- Numa Bay Exclusive
+- Granada Luxury Okurcalar
+- Mukarnas Spa Resort
+- AQI Pegasos Royal
+- Litore Resort Hotel & Spa
+- White City Resort
+- Utopia World
+- Quattro Beach Spa & Resort
+- Azura Deluxe Resort & Spa
+- Utopia Resort & Residence
+- Aria Resort & Spa
+- Blue Marlin Deluxe Spa & Resort
+- Sunprime C-Lounge
+- Saphir Hotel & Villas
+- Serenity Queen Hotel
+- Selene Beach & Spa
+- Granada Luxury Red
+- Wome Deluxe
+- Gold Island Selected
+- Saphir Resort & Spa
+- Lonicera Premium
+- Mary Hotels Alanya
+- Adin Resort Hotel
+- White City Beach Hotel
+
+2
+- Aydınbey Gold Dreams
+- Long Beach Alanya
+- Lonicera Resort & Spa
+- AQI Pegasos Resort
+- Gypsophila Holiday Village
+- Laguna Beach Alya Resort & Spa
+- Sealife Buket Resort & Spa
+- Oz Hotels Sui Resort
+- Meryan Hotel
+- Galeri Resort Hotel
+- Justiniano Deluxe Resort
+- The Lumos Deluxe Resort Hotel
+- Adenya Hotel & Resort
+- AQI Pegasos Club
+- Noxinn Deluxe Hotel
+- My Home Resort Hotel
+- Green Garden Resort & Spa Hotel
+- Alantur
+- Alaiye Resort & Spa
+- Annabella Diamond Hotel
+- Oz Hotels Incekum Beach Resort
+- Eftalia Blue
+- Royal Garden Beach
+- Yalihan Una
+- Club Kastalia Holiday Village
+- Lonicera World
+- Kaia Coracesium
+- Yalihan Aspendos
+- A Good Life Utopia Family Resort
+- Lonicera West Hotel
+- Azura World Hotel
+- Goldcity Hotel
+
+2−
+- Justiniano Park Conti
+- Eftalia Marin
+- Eftalia Sol
+- Bera Alanya
+- Seven Seas Palmeras Bay
+- Orange County Alanya
+- Q Premium Resort
+- Holiday Garden Resort
+- Eftalia Ocean Hotel
+- Eftalia Aqua Resort
+- Kırbıyık Resort Hotel
+- Club Aqua Plaza
+- Holiday Park Resort
+- Vikingen Infinity Resort & Spa
+- Asia Beach Resort & Spa
+- Diamond Hill Resort
+- Kaila Beach Hotel
+- Kahya Resort Aqua & Spa
+- Aska Just In Beach
+- Sentido Lycus Beach
+- Yetkin Hotel
+- Michell Hotel & Spa
+- Day One Beach Resort & Spa – Adult Only
+
+УРОВЕНЬ 1
+1+
+- Club Turtaş Beach Hotel
+- Club Hotel Titan
+- Club Dizalya
+- Telatiye Resort
+- Eftalia Splash Resort
+- Eftalia Village
+- Armas Green Fugla Beach
+- Numa Konaktepe
+- Xoria Deluxe
+- Club Sun Heaven
+- Avena Resort & Spa
+- Incekum Su Hotel
+- Dizalya Palm Garden
+- Kahya Hotel
+- Monart City
+- Kaila Krizantem
+- Tac Premier
+- Riviera Hotel & Spa
+- Blue Wave Suite Hotel
+- Beach Club Doğanay
+- Palmeras Beach Hotel
+- Gardenia Beach
+- Grand Kolibri Prestige & Spa
+- Utopia Beach Club
+- Grand Kaptan
+- Kleopatra Dreams Beach
+- Drita Hotel
+- Annabella Park Hotel
+- Incekum West Hotel
+- Justiniano Club Alanya
+- Aska Bayview Resort
+- Solivia Hotel
+- ananea Kleopatra Beach
+- Alaiye Kleopatra Hotel
+- Hotel Grand Okan
+- Grand Uysal Beach & Spa Hotel
+- Hotel Antik
+
+1
+- Club Mermaid Village
+- Club Paradiso
+- Grand Zaman Beach
+- Grand Zaman Garden
+- Q Aventura Park
+- My Home Sky Hotel
+- Özkaymak İncekum Hotel
+- Kolibri Resort Hotel
+- Xperia Saray Beach Hotel
+- Eftalia Downtown Hotel
+
+1−
+- MC Arancia Resort
+- Senza Garden Holiday Club
+- Senza Grand Santana
+- Özkaymak Select Resort
+- Alan Xafira Deluxe Resort & Spa
+- Ramira Beach Hotel
+- Caretta Beach Hotel
+- Timo Deluxe Resort
+- White Gold Hotel & Spa
+- Xperia Grand Bali Hotel
+
+УРОВЕНЬ 0
+0+
+- Miarosa İncekum Beach
+- Miarosa Konaklı Garden
+- Rubi Hotel
+- The Marilis Hill Resort Hotel & Spa
+- Nova Life Hotel
+- Sun Star Resort
+- Galaxy Beach Hotel
+- Bieno Club SVS
+- Caretta Relax Hotel
+- NoxInn Club
+- Xeno Eftalia Resort Hotel
+
+0
+- Greenlife Hotel
+- Insula Resort & Spa
+
+0−
+- Club Bayar Beach Hotel
+- Senza The Inn Resort & Spa
+
+УРОВЕНЬ −1
+- First Class Hotel
+- Grand Bahama Beach Hotel
+- Club Hotel Anjeliq
+- Club Wasa Holiday Village
+- Sultan Sipahi Resort
+- Aslan City Kleopatra
+- Atlas Beach Hotel
+- Hedef Resort Hotel
+- Hedef Beach Resort & Spa
+
+РЕБРЕНДИНГИ / НЕ ДУБЛИРОВАТЬ
+- Mary Hotels Alanya = бывший Sirius Deluxe. Это один объект; Sirius Deluxe отдельной строкой не держать.
+- Botanik Hotel & Resort ≠ Botanik Platinum. Два отдельных Delphin-продукта в одном комплексе; значительная часть внешней инфраструктуры общая.
+- Saphir Resort & Spa (Okurcalar) ≠ Saphir Hotel & Villas (Konaklı).
+- Lonicera Resort & Spa ≠ Lonicera World ≠ Lonicera Premium.
+- Gold Island Selected = нынешний продукт бывшего Sentido Gold Island; старое название отдельно не добавлять.
+- Seven Seas Palmeras Bay = бывший Kemal Bay Hotel; старое название отдельно не добавлять.
+- Oz Hotels Incekum Beach Resort / Oz Hotels Incekum Beach = один объект; старое Incekum Beach Resort отдельно не добавлять.
+- Miarosa Konaklı Garden = бывший Hedef Rose Garden.
+- Kaia Coracesium = бывший Villa Sunflower Beach Hotel; старое название отдельно не добавлять.
+- Utopia Beach Club сформирован на базе бывших Alara Star / Alara; старые названия отдельно не добавлять.
+- Palmeras Beach Hotel, Seven Seas Palmeras Bay и Sentido Palmeras Lumare — разные продукты.
+- Azura World Hotel = бывший Wyndham Alanya.
+- A Good Life Utopia Family Resort = бывший Water Planet Hotel & Aquapark.
+- Lonicera West Hotel = бывший Gold Island Mondo.
+- Solivia Hotel = бывший Titan Select.
+- ananea Kleopatra Beach = бывший Cook's Club Alanya.
+- Long Beach Harmony — часть комплекса Long Beach Alanya; отдельно не классифицировать.
+
+======================================================================
+КЕМЕР
+======================================================================
+
+УРОВЕНЬ 5
+— нет зафиксированных
+
+УРОВЕНЬ 4
+- Maxx Royal Kemer
+
+УРОВЕНЬ 3.5
+- NG Phaselis Bay
+- Nirvana Mediterranean Excellence
+- Nirvana Dolce Vita
+
+УРОВЕНЬ 3
+3+
+- Akra Kemer
+- Rixos Premium Tekirova
+
+3
+- Güral Premier Tekirova
+- AKKA Antedon
+- Club Med Palmiye
+
+3−
+- Sherwood Exclusive Kemer
+- DoubleTree by Hilton Antalya-Kemer
+- Mirage Park Resort
+- Balmy Beach Resort Kemer
+- FashionTV Luxe Resort
+
+УРОВЕНЬ 2
+
+Бельдиби — 2+
+- TUI MAGIC LIFE Beldibi +16
+  до 09.11.2026; с 10.11.2026 — Rixos Beldibi +16
+- Rixos Sungate
+- Balmy Foresta
+- Corendon Playa Kemer
+- Siu Collection
+
+Бельдиби — 2
+- Baia Salima Kemer
+- Crystal Flora
+- Juju Premier Palace
+- Dosinia Luxury Resort
+
+Бельдиби — 2−
+- Champion Holiday Village
+
+Гёйнюк — 2+
+- Seven Seas Hotel Life
+- Kimeros Park Holiday Village
+- Kilikya Palace Göynük
+- Bergiz Hotels & Resort Kemer
+
+Гёйнюк — 2
+- Mirada Del Mar
+- Karmir Resort & Spa
+- Crystal Prestige Elite
+- Ulusoy Kemer Holiday Club
+- Club Boran Mare Beach
+- Queen's Park Göynük
+- Fame Residence Göynük
+- Ma Biche Kemer by Werde Hotels
+- Amara Comfort Resort
+- Greenwood Kemer Resort
+
+Гёйнюк — 2−
+- Transatlantik Hotel & Spa
+
+Кемер-центр — 2+
+- Corendon Hydros Club Kemer
+- Fame Residence Kemer & Spa
+
+Кемер-центр — 2
+- Seven Seas Gravel Select
+- Crystal De Luxe Resort & Spa
+- Fore Resort & Spa
+
+Кемер-центр — 2−
+- Rox Resort Hotel
+- Orange County Kemer
+- Sealife Kemer Resort Hotel
+- Crystal Aura Aqua Collection
+
+Кириш — 2+
+- Sailor's Beach Club
+- AKKA Alinda
+- Swandor Hotels & Resorts Kemer
+- Dobedan World Palace Kemer
+
+Кириш — 2
+- Limak Limra Hotel & Resort
+- Le Jardin Resort Holiday Village
+- Miarosa Kemer Beach
+
+Чамьюва — 2+
+- Club Marco Polo
+- The Norm Oriental Kemer
+- ROBINSON Çamyuva
+
+Чамьюва — 2
+- Emelda Sun Club
+- Zena Resort
+
+Чамьюва — 2−
+- Kilikya Resort Çamyuva
+- Armas Labada
+- L'Oceanica Beach Resort
+
+Текирова — 2+
+- Rai Premium Tekirova
+- Club Hotel Phaselis Rose
+- Pirate's Beach Club
+
+Текирова — 2
+- Martı Myra
+- Mövenpick Resort Antalya Tekirova
+- RAI Foresta Tekirova
+
+УРОВЕНЬ 1
+1+
+- Grand Ring Hotel
+- Sunland Resort Beldibi
+- Catamaran Quality Times
+- Gypsophila Club Marine
+- Armas Kaplan Paradise
+- Lucida Beach Hotel
+- Armas Gül Beach
+- Armas Beach Hotel
+- Viking Garden Hotel & Spa
+- Club Hotel Rama
+- Club Hotel Belpinar
+- Onkel Hotels Beldibi Resort
+- Saint Star Hotels — Adult Only
+- Meder Resort Hotel
+- Pasha's Princess by Werde Hotels 16+
+- L'Ancora Beach Hotel
+- DG Hotels Rose Resort
+- AKKA Hotels Claros
+- Imperial Türkiz Resort Hotel
+
+1
+- Golden Lotus
+- Simena Comfort Hotel
+- Daima Resort
+- Daima Biz Hotel
+- Selçukhan Hotel
+- Golden Sun Hotel
+- Camyuva Beach Hotel
+- Pine House by Werde Hotels
+- Miramor Garden Resort
+- Elite Life Hotel & Spa
+- Viking Star Hotel
+- Viking Nona Beach Hotel
+- Alder Resort Hotel
+- Sea Gull Hotel
+- Kemer Dream Hotel
+- White Lilyum Hotel
+- Fame Beach Hotel
+- Grand Viking Hotel
+- Stella Hotel
+
+1−
+- Fun&Sun Smart Akman Beach
+- Ambassador Plaza Hotel
+- Viking Park Hotel & Spa
+- Asdem Park Hotel
+
+УРОВЕНЬ 0
+0+
+- Miramor Hotel & Spa
+- Tu Casa Gelidonya
+- Özkaymak Marina Hotel
+- Alder Garden Resort
+- Astoria Park Hotel & Spa
+- Grand Nar Hotel Adult Only
+
+0
+- Club Hotel Sunbel
+- Viking Beach Hotel
+
+0−
+- Aybel Inn Hotel
+- Magic Sun Hotel
+- Rich Melissa Hotel
+
+УРОВЕНЬ −1
+- Ares Dream Hotel
+- Dedeman Kemer Resort
+- Belpoint Beach Hotel
+- Anita Dream Hotel
+- Ares Blue Hotel
+- Ares City Hotel
+- Anita Noch Hotel
+- Ares Hotel Kemer
+
+РЕБРЕНДИНГИ / НЕ ДУБЛИРОВАТЬ
+- Sunland Resort Beldibi = бывший Imperial Sunland Resort & Spa.
+- Ulusoy Kemer Holiday Club / Kemer Holiday Club — один объект; в рейтинге используется рыночное имя Ulusoy Kemer Holiday Club.
+- Viking Star Hotel ≠ Viking Garden Hotel & Spa. Это два самостоятельных отеля сети Viking.
+- Ma Biche Kemer by Werde Hotels = бывший Ghazal Resort / Miarosa Ghazal.
+- Mövenpick Resort Antalya Tekirova = бывший Royal Diwa Tekirova / Euphoria Tekirova.
+- Elite Life Hotel & Spa = бывший Beso Beach Hotel.
+- Fun&Sun Smart Akman Beach = бывший Marvida Hotel Akman Park.
+- Dedeman Kemer Resort = бывший Armir Resort.
+- Alder Resort Hotel = бывший Eldar Resort Hotel.
+- Alder Garden Resort = бывший Eldar Garden Resort.
+- Swandor Hotels & Resorts Kemer = бывший PGS Hotels Kiris Resort.
+- RAI Premium Tekirova = бывший Queen's Park Tekirova.
+- Gypsophila Club Marine = бывший Amara Club Marine Nature.
+- Viking Garden Hotel & Spa = бывший Garden Resort Bergamot.
+- Corendon Playa Kemer = бывший Grand Park Kemer.
+- Juju Premier Palace = бывший Amara Premier Palace.
+- Miramor Hotel & Spa = бывший Grand Mir'Amor Hotel.
+- Viking Express Hotel — фактически 3*; вне основной resort-шкалы.
+- Kemer Reach Hotel — закрыт; не добавлять.
+
+======================================================================
+ФИНАЛЬНЫЕ РЕШЕНИЯ АУДИТА 26.09.2026
+======================================================================
+
+- Все пограничные записи вида 3−/3, 2+/2, 1+/2−, 0/−1 устранены: каждому действующему объекту присвоена одна позиция.
+- Все позиции из ранее невстроенного контрольного блока Сиде распределены по уровням.
+- Mary Hotels Alanya и Sirius Deluxe сведены в один объект под актуальным именем Mary Hotels Alanya.
+- Viking Star Hotel и Viking Garden Hotel & Spa разделены как два самостоятельных объекта.
+- Sentido Palmeras Lumare исключён из рейтинга 2026 до открытия в 2027.
+- Sunrise Queen вынесен из активной классификации 2026 из-за нестабильного операционного статуса перезапуска.
+- Свежая фактическая деградация 2026 учтена для Özkaymak Falez, Dionisus Hotel Belek, First Class Hotel Alanya, Dedeman Kemer Resort и Ares Dream Hotel.
+- Расширенный аудит полноты Аланьи, Сиде, Кемера, Белека, Лары/Кунду и Антальи завершён; следующей обязательной точки аудита нет.
