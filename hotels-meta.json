@@ -1,0 +1,341 @@
+{
+  "version": 1,
+  "hotels": {
+    "Palmora Lara Hotel": {
+      "aliases": [
+        "Palmet Family Lara",
+        "Armas Sunrise Lara",
+        "Jura Hotels Lara Resort",
+        "Zeyda Lara Hotel"
+      ]
+    },
+    "Wyndham Garden Lara": {
+      "aliases": [
+        "Lara Family Club"
+      ]
+    },
+    "Nirvana Cosmopolitan": {
+      "aliases": [
+        "Kervansaray Lara"
+      ]
+    },
+    "Crystal Centro Pearl Collection": {
+      "aliases": [
+        "Kervansaray Kundu"
+      ]
+    },
+    "Swandor Hotels & Resorts Topkapi Palace": {
+      "aliases": [
+        "WOW Topkapi Palace"
+      ]
+    },
+    "Ducale Lara": {
+      "aliases": [
+        "Venezia Palace"
+      ]
+    },
+    "Belkon Hotel": {
+      "aliases": [
+        "Belkon Club Hotel"
+      ]
+    },
+    "Paloma Sencia": {
+      "aliases": [
+        "Cornelia De Luxe Resort"
+      ]
+    },
+    "Asteria Family Belek": {
+      "aliases": [
+        "Aquaworld Belek",
+        "TUI Magic Life Waterworld"
+      ]
+    },
+    "TUI Magic Life Belek": {
+      "aliases": [
+        "Club Asteria Belek"
+      ]
+    },
+    "Titanic Deluxe Golf Belek": {
+      "aliases": [
+        "Titanic Luxury Collection Belek"
+      ]
+    },
+    "Crystal Paraiso Verde Resort & SPA": {
+      "aliases": [
+        "Vera Club Hotel Paradiso"
+      ]
+    },
+    "Amon Hotels Belek": {
+      "aliases": [
+        "Maya World Belek",
+        "Maya Melissa Garden"
+      ]
+    },
+    "Selectum Noa Belek": {
+      "aliases": [
+        "Cesars Temple"
+      ]
+    },
+    "Selectum Family Resort Belek": {
+      "aliases": [
+        "Letoonia Golf Resort"
+      ]
+    },
+    "Selectum Luxury Resort Belek": {
+      "aliases": [
+        "Attaleia Shine"
+      ]
+    },
+    "Güral Premier Belek": {
+      "aliases": [
+        "Club Ali Bey Belek"
+      ]
+    },
+    "Orange County Belek – Family Concept": {
+      "aliases": [
+        "Vera Mare"
+      ]
+    },
+    "My Belek Collection / ex Hotella Resort & Spa": {
+      "aliases": [
+        "Hotella Resort & Spa"
+      ]
+    },
+    "Side Aluna": {
+      "aliases": [
+        "Diamond Beach Hotel & Spa"
+      ]
+    },
+    "Asteria Family Resort Side": {
+      "aliases": [
+        "Euphoria Palm Beach Resort"
+      ]
+    },
+    "Asteria Bloom Side": {
+      "aliases": [
+        "Selectum For Two"
+      ]
+    },
+    "Adalya Bliss": {
+      "aliases": [
+        "Adalya Resort & Spa"
+      ]
+    },
+    "TUI BLUE Side": {
+      "aliases": [
+        "Blue Side Hotel"
+      ]
+    },
+    "Well Palace Side": {
+      "aliases": [
+        "Side Crown Charm Palace"
+      ]
+    },
+    "Seashell Vega": {
+      "aliases": [
+        "Side Crown Sunshine"
+      ]
+    },
+    "Linda Sunny Beach": {
+      "aliases": [
+        "Bieno Club Sunset",
+        "Linda Sunny Beach Hotel & Spa"
+      ]
+    },
+    "Hane Family Resort": {
+      "aliases": [
+        "Primasol Hane Family"
+      ]
+    },
+    "Seher Kumköy Star": {
+      "aliases": [
+        "Hane Hotel",
+        "Seher Kumköy Star Resort & Spa"
+      ]
+    },
+    "Sentido Serra Resort": {
+      "aliases": [
+        "Serra Garden",
+        "Primasol Serra Garden"
+      ]
+    },
+    "Mary Hotel Side": {
+      "aliases": [
+        "Mary Palace Resort"
+      ]
+    },
+    "Side Story Resort & Spa": {
+      "aliases": [
+        "Seher Sun Beach"
+      ]
+    },
+    "Terrace Beach Resort": {
+      "aliases": [
+        "Hotel Terrace"
+      ]
+    },
+    "Selectum Family Resort Side": {
+      "aliases": [
+        "Silence Beach Resort"
+      ]
+    },
+    "Akra Sorgun": {
+      "aliases": [
+        "Sensatori Sorgun",
+        "Barut Sorgun Sensatori"
+      ]
+    },
+    "Asteria Collection Side": {
+      "aliases": [
+        "Saray Regency",
+        "Maritim Saray Regency",
+        "Armas Regency",
+        "Amara Family Resort"
+      ]
+    },
+    "Mary Hotels Alanya": {
+      "aliases": [
+        "Sirius Deluxe"
+      ]
+    },
+    "Gold Island Selected": {
+      "aliases": [
+        "Sentido Gold Island"
+      ]
+    },
+    "Seven Seas Palmeras Bay": {
+      "aliases": [
+        "Kemal Bay Hotel"
+      ]
+    },
+    "Oz Hotels Incekum Beach Resort": {
+      "aliases": [
+        "Oz Hotels Incekum Beach",
+        "Incekum Beach Resort"
+      ]
+    },
+    "Miarosa Konaklı Garden": {
+      "aliases": [
+        "Hedef Rose Garden"
+      ]
+    },
+    "Kaia Coracesium": {
+      "aliases": [
+        "Villa Sunflower Beach Hotel"
+      ]
+    },
+    "Utopia Beach Club": {
+      "aliases": [
+        "Alara Star",
+        "Alara"
+      ]
+    },
+    "Azura World Hotel": {
+      "aliases": [
+        "Wyndham Alanya"
+      ]
+    },
+    "A Good Life Utopia Family Resort": {
+      "aliases": [
+        "Water Planet Hotel & Aquapark"
+      ]
+    },
+    "Lonicera West Hotel": {
+      "aliases": [
+        "Gold Island Mondo"
+      ]
+    },
+    "Solivia Hotel": {
+      "aliases": [
+        "Titan Select"
+      ]
+    },
+    "ananea Kleopatra Beach": {
+      "aliases": [
+        "Cook's Club Alanya"
+      ]
+    },
+    "Sunland Resort Beldibi": {
+      "aliases": [
+        "Imperial Sunland Resort & Spa"
+      ]
+    },
+    "Ulusoy Kemer Holiday Club": {
+      "aliases": [
+        "Kemer Holiday Club"
+      ]
+    },
+    "Ma Biche Kemer by Werde Hotels": {
+      "aliases": [
+        "Ghazal Resort",
+        "Miarosa Ghazal"
+      ]
+    },
+    "Mövenpick Resort Antalya Tekirova": {
+      "aliases": [
+        "Royal Diwa Tekirova",
+        "Euphoria Tekirova"
+      ]
+    },
+    "Elite Life Hotel & Spa": {
+      "aliases": [
+        "Beso Beach Hotel"
+      ]
+    },
+    "Fun&Sun Smart Akman Beach": {
+      "aliases": [
+        "Marvida Hotel Akman Park"
+      ]
+    },
+    "Dedeman Kemer Resort": {
+      "aliases": [
+        "Armir Resort"
+      ]
+    },
+    "Alder Resort Hotel": {
+      "aliases": [
+        "Eldar Resort Hotel"
+      ]
+    },
+    "Alder Garden Resort": {
+      "aliases": [
+        "Eldar Garden Resort"
+      ]
+    },
+    "Swandor Hotels & Resorts Kemer": {
+      "aliases": [
+        "PGS Hotels Kiris Resort"
+      ]
+    },
+    "Rai Premium Tekirova": {
+      "aliases": [
+        "Queen's Park Tekirova"
+      ]
+    },
+    "Gypsophila Club Marine": {
+      "aliases": [
+        "Amara Club Marine Nature"
+      ]
+    },
+    "Viking Garden Hotel & Spa": {
+      "aliases": [
+        "Garden Resort Bergamot"
+      ]
+    },
+    "Corendon Playa Kemer": {
+      "aliases": [
+        "Grand Park Kemer"
+      ]
+    },
+    "Juju Premier Palace": {
+      "aliases": [
+        "Amara Premier Palace"
+      ]
+    },
+    "Miramor Hotel & Spa": {
+      "aliases": [
+        "Grand Mir'Amor Hotel"
+      ]
+    }
+  }
+}
