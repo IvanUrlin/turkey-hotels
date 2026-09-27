@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "hotels": {
     "Palmora Lara Hotel": {
       "aliases": [
@@ -119,12 +119,16 @@
     "Adalya Bliss": {
       "aliases": [
         "Adalya Resort & Spa"
-      ]
+      ],
+      "ageRestricted": true,
+      "minGuestAge": 16
     },
     "TUI BLUE Side": {
       "aliases": [
         "Blue Side Hotel"
-      ]
+      ],
+      "ageRestricted": true,
+      "minGuestAge": 16
     },
     "Well Palace Side": {
       "aliases": [
@@ -253,7 +257,9 @@
     "ananea Kleopatra Beach": {
       "aliases": [
         "Cook's Club Alanya"
-      ]
+      ],
+      "ageRestricted": true,
+      "minGuestAge": 12
     },
     "Sunland Resort Beldibi": {
       "aliases": [
@@ -336,6 +342,158 @@
       "aliases": [
         "Grand Mir'Amor Hotel"
       ]
+    },
+    "Delta Hotels by Marriott Antalya Lara": {
+      "ageRestricted": true,
+      "minGuestAge": 18
+    },
+    "Adam & Eve": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "TUI BLUE Belek": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Crystal Boutique Beach Resort 16+": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Commodore Elite Suites & Spa": {
+      "ageRestricted": true,
+      "minGuestAge": 18
+    },
+    "TUI BLUE Barut Andız": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "The Raga Side Fine Dining Adult Only": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Flora Garden Beach — Adults Only": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Side Stella Elite Resort & Spa": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Trendy Palm Beach": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Alba Royal": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Seaden Valentine Resort & Spa": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Alexia Resort & Spa": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Diamond Elite Hotel & Spa": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Süral Saray": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Seher Side Quality Resort & Spa": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Trendy Side Beach": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Side Zeugma": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Nerton Hotel 16+": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Roma Beach Resort & Spa 16+": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Vox Maris Resort": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Side Alegria Hotel & Spa 16+": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Side Su Hotel": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Side Golden Rock": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Sunprime C-Lounge": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Selene Beach & Spa": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Granada Luxury Red": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "White City Beach Hotel": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Michell Hotel & Spa": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Day One Beach Resort & Spa – Adult Only": {
+      "ageRestricted": true,
+      "minGuestAge": 18
+    },
+    "Balmy Beach Resort Kemer": {
+      "ageRestricted": true,
+      "minGuestAge": 18
+    },
+    "TUI MAGIC LIFE Beldibi +16": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "ROBINSON Çamyuva": {
+      "ageRestricted": true,
+      "minGuestAge": 18
+    },
+    "Saint Star Hotels — Adult Only": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Pasha's Princess by Werde Hotels 16+": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Golden Sun Hotel": {
+      "ageRestricted": true,
+      "minGuestAge": 12
+    },
+    "Grand Nar Hotel Adult Only": {
+      "ageRestricted": true,
+      "minGuestAge": 16
+    },
+    "Anita Noch Hotel": {
+      "ageRestricted": true,
+      "minGuestAge": 12
     }
   }
 }
