@@ -14,6 +14,15 @@ This repository contains a simple static hotel catalogue website.
 - Do not modify hotels-master.txt unless explicitly requested.
 - UI changes should normally affect only index.html.
 
+## Development workflow
+- Code, UI, responsive-layout, and application-logic changes are implemented by Codex.
+- ChatGPT prepares the task for Codex and then performs an independent review of Codex's pull request.
+- ChatGPT should not author code/UI/logic changes directly when Codex is available.
+- Codex must run the required validation for its implementation, including Playwright/Chromium for UI work.
+- ChatGPT reviews the diff, scope, test evidence, regressions, and compliance with these instructions.
+- The user performs the final merge after ChatGPT's review.
+- Data-only metadata changes (for example hotels-meta.json) and repository-process documentation may be handled directly by ChatGPT when appropriate, but still through a separate branch and pull request.
+
 ## Git workflow
 - Do not commit directly to main.
 - Work in a separate branch.
