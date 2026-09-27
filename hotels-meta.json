@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "hotels": {
     "Palmora Lara Hotel": {
       "aliases": [
@@ -7,187 +7,222 @@
         "Armas Sunrise Lara",
         "Jura Hotels Lara Resort",
         "Zeyda Lara Hotel"
-      ]
+      ],
+      "firstLine": false
     },
     "Wyndham Garden Lara": {
       "aliases": [
         "Lara Family Club"
-      ]
+      ],
+      "firstLine": false
     },
     "Nirvana Cosmopolitan": {
       "aliases": [
         "Kervansaray Lara"
-      ]
+      ],
+      "firstLine": true
     },
     "Crystal Centro Pearl Collection": {
       "aliases": [
         "Kervansaray Kundu"
-      ]
+      ],
+      "firstLine": true
     },
     "Swandor Hotels & Resorts Topkapi Palace": {
       "aliases": [
         "WOW Topkapi Palace"
-      ]
+      ],
+      "firstLine": true
     },
     "Ducale Lara": {
       "aliases": [
         "Venezia Palace"
-      ]
+      ],
+      "firstLine": true
     },
     "Belkon Hotel": {
       "aliases": [
         "Belkon Club Hotel"
-      ]
+      ],
+      "firstLine": false
     },
     "Paloma Sencia": {
       "aliases": [
         "Cornelia De Luxe Resort"
-      ]
+      ],
+      "firstLine": true
     },
     "Asteria Family Belek": {
       "aliases": [
         "Aquaworld Belek",
         "TUI Magic Life Waterworld"
-      ]
+      ],
+      "firstLine": true
     },
     "TUI Magic Life Belek": {
       "aliases": [
         "Club Asteria Belek"
-      ]
+      ],
+      "firstLine": true
     },
     "Titanic Deluxe Golf Belek": {
       "aliases": [
         "Titanic Luxury Collection Belek"
-      ]
+      ],
+      "firstLine": false
     },
     "Crystal Paraiso Verde Resort & SPA": {
       "aliases": [
         "Vera Club Hotel Paradiso"
-      ]
+      ],
+      "firstLine": false
     },
     "Amon Hotels Belek": {
       "aliases": [
         "Maya World Belek",
         "Maya Melissa Garden"
-      ]
+      ],
+      "firstLine": false
     },
     "Selectum Noa Belek": {
       "aliases": [
         "Cesars Temple"
-      ]
+      ],
+      "firstLine": true
     },
     "Selectum Family Resort Belek": {
       "aliases": [
         "Letoonia Golf Resort"
-      ]
+      ],
+      "firstLine": true
     },
     "Selectum Luxury Resort Belek": {
       "aliases": [
         "Attaleia Shine"
-      ]
+      ],
+      "firstLine": true
     },
     "Güral Premier Belek": {
       "aliases": [
         "Club Ali Bey Belek"
-      ]
+      ],
+      "firstLine": true
     },
     "Orange County Belek – Family Concept": {
       "aliases": [
         "Vera Mare"
-      ]
+      ],
+      "firstLine": true
     },
     "My Belek Collection / ex Hotella Resort & Spa": {
       "aliases": [
         "Hotella Resort & Spa"
-      ]
+      ],
+      "firstLine": false
     },
     "Side Aluna": {
       "aliases": [
         "Diamond Beach Hotel & Spa"
-      ]
+      ],
+      "firstLine": false
     },
     "Asteria Family Resort Side": {
       "aliases": [
         "Euphoria Palm Beach Resort"
-      ]
+      ],
+      "firstLine": true
     },
     "Asteria Bloom Side": {
       "aliases": [
         "Selectum For Two"
-      ]
+      ],
+      "firstLine": true
     },
     "Adalya Bliss": {
       "aliases": [
         "Adalya Resort & Spa"
       ],
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "TUI BLUE Side": {
       "aliases": [
         "Blue Side Hotel"
       ],
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Well Palace Side": {
       "aliases": [
         "Side Crown Charm Palace"
-      ]
+      ],
+      "firstLine": false
     },
     "Seashell Vega": {
       "aliases": [
         "Side Crown Sunshine"
-      ]
+      ],
+      "firstLine": false
     },
     "Linda Sunny Beach": {
       "aliases": [
         "Bieno Club Sunset",
         "Linda Sunny Beach Hotel & Spa"
-      ]
+      ],
+      "firstLine": false
     },
     "Hane Family Resort": {
       "aliases": [
         "Primasol Hane Family"
-      ]
+      ],
+      "firstLine": false
     },
     "Seher Kumköy Star": {
       "aliases": [
         "Hane Hotel",
         "Seher Kumköy Star Resort & Spa"
-      ]
+      ],
+      "firstLine": false
     },
     "Sentido Serra Resort": {
       "aliases": [
         "Serra Garden",
         "Primasol Serra Garden"
-      ]
+      ],
+      "firstLine": false
     },
     "Mary Hotel Side": {
       "aliases": [
         "Mary Palace Resort"
-      ]
+      ],
+      "firstLine": false
     },
     "Side Story Resort & Spa": {
       "aliases": [
         "Seher Sun Beach"
-      ]
+      ],
+      "firstLine": true
     },
     "Terrace Beach Resort": {
       "aliases": [
         "Hotel Terrace"
-      ]
+      ],
+      "firstLine": true
     },
     "Selectum Family Resort Side": {
       "aliases": [
         "Silence Beach Resort"
-      ]
+      ],
+      "firstLine": true
     },
     "Akra Sorgun": {
       "aliases": [
         "Sensatori Sorgun",
         "Barut Sorgun Sensatori"
-      ]
+      ],
+      "firstLine": true
     },
     "Asteria Collection Side": {
       "aliases": [
@@ -195,305 +230,2058 @@
         "Maritim Saray Regency",
         "Armas Regency",
         "Amara Family Resort"
-      ]
+      ],
+      "firstLine": true
     },
     "Mary Hotels Alanya": {
       "aliases": [
         "Sirius Deluxe"
-      ]
+      ],
+      "firstLine": true
     },
     "Gold Island Selected": {
       "aliases": [
         "Sentido Gold Island"
-      ]
+      ],
+      "firstLine": true
     },
     "Seven Seas Palmeras Bay": {
       "aliases": [
         "Kemal Bay Hotel"
-      ]
+      ],
+      "firstLine": true
     },
     "Oz Hotels Incekum Beach Resort": {
       "aliases": [
         "Oz Hotels Incekum Beach",
         "Incekum Beach Resort"
-      ]
+      ],
+      "firstLine": true
     },
     "Miarosa Konaklı Garden": {
       "aliases": [
         "Hedef Rose Garden"
-      ]
+      ],
+      "firstLine": false
     },
     "Kaia Coracesium": {
       "aliases": [
         "Villa Sunflower Beach Hotel"
-      ]
+      ],
+      "firstLine": true
     },
     "Utopia Beach Club": {
       "aliases": [
         "Alara Star",
         "Alara"
-      ]
+      ],
+      "firstLine": true
     },
     "Azura World Hotel": {
       "aliases": [
         "Wyndham Alanya"
-      ]
+      ],
+      "firstLine": false
     },
     "A Good Life Utopia Family Resort": {
       "aliases": [
         "Water Planet Hotel & Aquapark"
-      ]
+      ],
+      "firstLine": true
     },
     "Lonicera West Hotel": {
       "aliases": [
         "Gold Island Mondo"
-      ]
+      ],
+      "firstLine": true
     },
     "Solivia Hotel": {
       "aliases": [
         "Titan Select"
-      ]
+      ],
+      "firstLine": false
     },
     "ananea Kleopatra Beach": {
       "aliases": [
         "Cook's Club Alanya"
       ],
       "ageRestricted": true,
-      "minGuestAge": 12
+      "minGuestAge": 12,
+      "firstLine": true
     },
     "Sunland Resort Beldibi": {
       "aliases": [
         "Imperial Sunland Resort & Spa"
-      ]
+      ],
+      "firstLine": true
     },
     "Ulusoy Kemer Holiday Club": {
       "aliases": [
         "Kemer Holiday Club"
-      ]
+      ],
+      "firstLine": true
     },
     "Ma Biche Kemer by Werde Hotels": {
       "aliases": [
         "Ghazal Resort",
         "Miarosa Ghazal"
-      ]
+      ],
+      "firstLine": true
     },
     "Mövenpick Resort Antalya Tekirova": {
       "aliases": [
         "Royal Diwa Tekirova",
         "Euphoria Tekirova"
-      ]
+      ],
+      "firstLine": true
     },
     "Elite Life Hotel & Spa": {
       "aliases": [
         "Beso Beach Hotel"
-      ]
+      ],
+      "firstLine": true
     },
     "Fun&Sun Smart Akman Beach": {
       "aliases": [
         "Marvida Hotel Akman Park"
-      ]
+      ],
+      "firstLine": true
     },
     "Dedeman Kemer Resort": {
       "aliases": [
         "Armir Resort"
-      ]
+      ],
+      "firstLine": false
     },
     "Alder Resort Hotel": {
       "aliases": [
         "Eldar Resort Hotel"
-      ]
+      ],
+      "firstLine": false
     },
     "Alder Garden Resort": {
       "aliases": [
         "Eldar Garden Resort"
-      ]
+      ],
+      "firstLine": false
     },
     "Swandor Hotels & Resorts Kemer": {
       "aliases": [
         "PGS Hotels Kiris Resort"
-      ]
+      ],
+      "firstLine": true
     },
     "Rai Premium Tekirova": {
       "aliases": [
         "Queen's Park Tekirova"
-      ]
+      ],
+      "firstLine": true
     },
     "Gypsophila Club Marine": {
       "aliases": [
         "Amara Club Marine Nature"
-      ]
+      ],
+      "firstLine": true
     },
     "Viking Garden Hotel & Spa": {
       "aliases": [
         "Garden Resort Bergamot"
-      ]
+      ],
+      "firstLine": false
     },
     "Corendon Playa Kemer": {
       "aliases": [
         "Grand Park Kemer"
-      ]
+      ],
+      "firstLine": true
     },
     "Juju Premier Palace": {
       "aliases": [
         "Amara Premier Palace"
-      ]
+      ],
+      "firstLine": true
     },
     "Miramor Hotel & Spa": {
       "aliases": [
         "Grand Mir'Amor Hotel"
-      ]
+      ],
+      "firstLine": false
     },
     "Delta Hotels by Marriott Antalya Lara": {
       "ageRestricted": true,
-      "minGuestAge": 18
+      "minGuestAge": 18,
+      "firstLine": true
     },
     "Adam & Eve": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "TUI BLUE Belek": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Crystal Boutique Beach Resort 16+": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Commodore Elite Suites & Spa": {
       "ageRestricted": true,
-      "minGuestAge": 18
+      "minGuestAge": 18,
+      "firstLine": true
     },
     "TUI BLUE Barut Andız": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "The Raga Side Fine Dining Adult Only": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Flora Garden Beach — Adults Only": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Side Stella Elite Resort & Spa": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Trendy Palm Beach": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Alba Royal": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Seaden Valentine Resort & Spa": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Alexia Resort & Spa": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Diamond Elite Hotel & Spa": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Süral Saray": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Seher Side Quality Resort & Spa": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Trendy Side Beach": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Side Zeugma": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Nerton Hotel 16+": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Roma Beach Resort & Spa 16+": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Vox Maris Resort": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Side Alegria Hotel & Spa 16+": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Side Su Hotel": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Side Golden Rock": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Sunprime C-Lounge": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Selene Beach & Spa": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Granada Luxury Red": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "White City Beach Hotel": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "Michell Hotel & Spa": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Day One Beach Resort & Spa – Adult Only": {
       "ageRestricted": true,
-      "minGuestAge": 18
+      "minGuestAge": 18,
+      "firstLine": true
     },
     "Balmy Beach Resort Kemer": {
       "ageRestricted": true,
-      "minGuestAge": 18
+      "minGuestAge": 18,
+      "firstLine": true
     },
     "TUI MAGIC LIFE Beldibi +16": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": true
     },
     "ROBINSON Çamyuva": {
       "ageRestricted": true,
-      "minGuestAge": 18
+      "minGuestAge": 18,
+      "firstLine": true
     },
     "Saint Star Hotels — Adult Only": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Pasha's Princess by Werde Hotels 16+": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Golden Sun Hotel": {
       "ageRestricted": true,
-      "minGuestAge": 12
+      "minGuestAge": 12,
+      "firstLine": false
     },
     "Grand Nar Hotel Adult Only": {
       "ageRestricted": true,
-      "minGuestAge": 16
+      "minGuestAge": 16,
+      "firstLine": false
     },
     "Anita Noch Hotel": {
       "ageRestricted": true,
-      "minGuestAge": 12
+      "minGuestAge": 12,
+      "firstLine": false
+    },
+    "Akra Antalya": {
+      "firstLine": true
+    },
+    "Rixos Downtown Antalya": {
+      "firstLine": false
+    },
+    "Megasaray Westbeach Antalya": {
+      "firstLine": true
+    },
+    "Ramada Plaza by Wyndham Antalya": {
+      "firstLine": true
+    },
+    "Porto Bello Hotel Resort & Spa": {
+      "firstLine": true
+    },
+    "The Marmara Antalya": {
+      "firstLine": true
+    },
+    "Sunis Hotel SU & Aqualand": {
+      "firstLine": false
+    },
+    "Club Hotel Sera": {
+      "firstLine": true
+    },
+    "Crowne Plaza Antalya": {
+      "firstLine": true
+    },
+    "Sealife Family Resort Hotel": {
+      "firstLine": true
+    },
+    "Falcon Hotel": {
+      "firstLine": true
+    },
+    "Adonis Hotel": {
+      "firstLine": true
+    },
+    "Holiday Inn Antalya - Lara": {
+      "firstLine": false
+    },
+    "Bilem Hotel Beach & Spa": {
+      "firstLine": true
+    },
+    "Özkaymak Falez": {
+      "firstLine": false
+    },
+    "BAYOU Villas Lara": {
+      "firstLine": true
+    },
+    "Lara Barut Collection": {
+      "firstLine": true
+    },
+    "Titanic Mardan Palace": {
+      "firstLine": true
+    },
+    "Voyage Kundu": {
+      "firstLine": true
+    },
+    "Concorde De Luxe Resort": {
+      "firstLine": true
+    },
+    "Delphin Imperial": {
+      "firstLine": true
+    },
+    "Delphin BE Grand Resort": {
+      "firstLine": true
+    },
+    "Delphin Neo Palace": {
+      "firstLine": true
+    },
+    "Delphin Palace": {
+      "firstLine": true
+    },
+    "Trendy Perge Resort & Suites": {
+      "firstLine": false
+    },
+    "Titanic Deluxe Lara": {
+      "firstLine": true
+    },
+    "Liberty Hotels Lara": {
+      "firstLine": true
+    },
+    "Delphin Diva Premiere": {
+      "firstLine": true
+    },
+    "Saturn Palace Resort": {
+      "firstLine": true
+    },
+    "Sherwood Exclusive Lara": {
+      "firstLine": true
+    },
+    "Royal Holiday Palace": {
+      "firstLine": true
+    },
+    "IC Hotels Green Palace": {
+      "firstLine": true
+    },
+    "Adalya Elite Lara": {
+      "firstLine": true
+    },
+    "Trendy Lara Hotel": {
+      "firstLine": false
+    },
+    "Royal Wings Hotel": {
+      "firstLine": true
+    },
+    "Baia Lara Hotel": {
+      "firstLine": true
+    },
+    "Limak Lara De Luxe Hotel & Resort": {
+      "firstLine": true
+    },
+    "Fame Residence Lara & SPA": {
+      "firstLine": true
+    },
+    "Royal Seginus Hotel": {
+      "firstLine": false
+    },
+    "Melas Lara Hotel": {
+      "firstLine": true
+    },
+    "Kremlin Palace": {
+      "firstLine": true
+    },
+    "Miracle Resort Hotel": {
+      "firstLine": true
+    },
+    "Aska Lara Resort & SPA": {
+      "firstLine": false
+    },
+    "Corendon Grand Park Lara": {
+      "firstLine": false
+    },
+    "Ramada Resort by Wyndham Lara": {
+      "firstLine": false
+    },
+    "Greenwood Suites Resort": {
+      "firstLine": false
+    },
+    "Wind of Lara": {
+      "firstLine": false
+    },
+    "Regnum The Crown": {
+      "firstLine": true
+    },
+    "Club Privé by Rixos Belek": {
+      "firstLine": true
+    },
+    "Cornelia Azure Villas": {
+      "firstLine": true
+    },
+    "Maxx Royal Belek Golf Resort": {
+      "firstLine": true
+    },
+    "Regnum Carya": {
+      "firstLine": true
+    },
+    "Cullinan Belek": {
+      "firstLine": true
+    },
+    "ETHNO Belek": {
+      "firstLine": true
+    },
+    "Gloria Serenity Resort": {
+      "firstLine": true
+    },
+    "Voyage Belek Golf & Spa": {
+      "firstLine": true
+    },
+    "Rixos Premium Belek": {
+      "firstLine": true
+    },
+    "Kempinski Hotel The Dome": {
+      "firstLine": true
+    },
+    "Calista Luxury Resort": {
+      "firstLine": true
+    },
+    "Gloria Verde Resort": {
+      "firstLine": true
+    },
+    "Gloria Golf Resort": {
+      "firstLine": true
+    },
+    "Kaya Palazzo Golf Resort": {
+      "firstLine": true
+    },
+    "Ela Excellence Resort Belek": {
+      "firstLine": true
+    },
+    "Cornelia Diamond Golf Resort & Spa": {
+      "firstLine": true
+    },
+    "Papillon Zeugma Relaxury": {
+      "firstLine": true
+    },
+    "Susesi Luxury Resort": {
+      "firstLine": true
+    },
+    "Sueno Hotels Deluxe Belek": {
+      "firstLine": true
+    },
+    "Xanadu Resort": {
+      "firstLine": true
+    },
+    "Bohemia Suites & Villas by Sirene": {
+      "firstLine": true
+    },
+    "ROBINSON Nobilis": {
+      "firstLine": true
+    },
+    "Papillon Ayscha": {
+      "firstLine": true
+    },
+    "Bellis Deluxe": {
+      "firstLine": true
+    },
+    "Megasaray Club Belek": {
+      "firstLine": true
+    },
+    "IC Hotels Santai Family Resort": {
+      "firstLine": true
+    },
+    "Sirene Belek Hotel": {
+      "firstLine": true
+    },
+    "Dobedan Exclusive Hotel Belek": {
+      "firstLine": true
+    },
+    "Papillon Belvil": {
+      "firstLine": true
+    },
+    "TUI Magic Life Masmavi": {
+      "firstLine": true
+    },
+    "Port Nature Luxury Resort Hotel & Spa": {
+      "firstLine": true
+    },
+    "Kaya Belek": {
+      "firstLine": true
+    },
+    "Adora Hotel & Resort": {
+      "firstLine": true
+    },
+    "Granada Luxury Belek": {
+      "firstLine": false
+    },
+    "Belek Beach Resort Hotel": {
+      "firstLine": true
+    },
+    "Rixos Park Belek": {
+      "firstLine": true
+    },
+    "The X Belek": {
+      "firstLine": false
+    },
+    "Sueno Hotels Golf Belek": {
+      "firstLine": false
+    },
+    "Paloma Grida": {
+      "firstLine": true
+    },
+    "Pine Beach Belek": {
+      "firstLine": true
+    },
+    "Limak Atlantis Deluxe Hotel & Resort": {
+      "firstLine": true
+    },
+    "Limak Arcadia Sport Resort": {
+      "firstLine": true
+    },
+    "Spice Hotel & SPA": {
+      "firstLine": true
+    },
+    "Belconti Resort Hotel": {
+      "firstLine": true
+    },
+    "Kirman Belazur Resort & Spa": {
+      "firstLine": true
+    },
+    "Crystal Tat Beach": {
+      "firstLine": true
+    },
+    "Green Max Hotel": {
+      "firstLine": true
+    },
+    "Lykia World Antalya": {
+      "firstLine": true
+    },
+    "SY Hotels Belek Boutique Luxury": {
+      "firstLine": false
+    },
+    "Sentido Luna Vista Belek": {
+      "firstLine": true
+    },
+    "Crystal Family Resort & Spa": {
+      "firstLine": true
+    },
+    "Crystal Waterworld Resort & Spa": {
+      "firstLine": true
+    },
+    "Sherwood Dreams Resort": {
+      "firstLine": true
+    },
+    "Aydınbey Famous Resort": {
+      "firstLine": true
+    },
+    "Siam Elegance Hotels & Spa": {
+      "firstLine": true
+    },
+    "Sensitive Premium Resort & Spa": {
+      "firstLine": false
+    },
+    "Aydınbey Queen's Palace & Spa": {
+      "firstLine": false
+    },
+    "Innvista Hotels Belek": {
+      "firstLine": false
+    },
+    "Altis Resort Hotel": {
+      "firstLine": true
+    },
+    "Maya World Park": {
+      "firstLine": false
+    },
+    "Armas Life Belek": {
+      "firstLine": true
+    },
+    "Belek Soho Beach Club": {
+      "firstLine": true
+    },
+    "Clover Magic Seagate Belek": {
+      "firstLine": true
+    },
+    "Sarp Hotel Kadriye": {
+      "firstLine": false
+    },
+    "Belenli Resort Hotel": {
+      "firstLine": false
+    },
+    "Prenses Sealine Beach Hotel": {
+      "firstLine": false
+    },
+    "Dionisus Hotel Belek": {
+      "firstLine": false
+    },
+    "BIJAL": {
+      "firstLine": true
+    },
+    "Acanthus Cennet Barut Collection": {
+      "firstLine": true
+    },
+    "Voyage Sorgun": {
+      "firstLine": true
+    },
+    "Arum Barut Collection": {
+      "firstLine": true
+    },
+    "Barut Hemera": {
+      "firstLine": true
+    },
+    "Paloma Finesse": {
+      "firstLine": true
+    },
+    "LIU Resorts": {
+      "firstLine": true
+    },
+    "Miramare Beach": {
+      "firstLine": true
+    },
+    "Ali Bey Resort Sorgun": {
+      "firstLine": true
+    },
+    "Paloma Orenda": {
+      "firstLine": true
+    },
+    "LUSSO Sorgun": {
+      "firstLine": true
+    },
+    "Seaden Quality Resort & Spa": {
+      "firstLine": true
+    },
+    "Side Star Elegance": {
+      "firstLine": true
+    },
+    "Barut GOIA": {
+      "firstLine": false
+    },
+    "Kirman Calyptus Resort & Spa": {
+      "firstLine": false
+    },
+    "Arcanus Hotels Sorgun": {
+      "firstLine": true
+    },
+    "LAGO Hotel": {
+      "firstLine": true
+    },
+    "Sidemarin Kirman Premium": {
+      "firstLine": true
+    },
+    "Paloma Oceana": {
+      "firstLine": true
+    },
+    "Paloma Perissia": {
+      "firstLine": true
+    },
+    "Sunis Kumköy Beach Resort & Spa": {
+      "firstLine": true
+    },
+    "Trendy Verbena Beach": {
+      "firstLine": true
+    },
+    "Aydınbey King's Palace & Spa": {
+      "firstLine": true
+    },
+    "Side Star Beach": {
+      "firstLine": true
+    },
+    "Melas Resort Hotel": {
+      "firstLine": true
+    },
+    "Monachus Family Resort Sorgun": {
+      "firstLine": true
+    },
+    "Royal Dragon Hotel": {
+      "firstLine": true
+    },
+    "Kamelya Selin": {
+      "firstLine": true
+    },
+    "Blue Waters Club": {
+      "firstLine": true
+    },
+    "Turquoise Hotel": {
+      "firstLine": true
+    },
+    "Megasaray Resort Side": {
+      "firstLine": true
+    },
+    "ROBINSON Pamfilya": {
+      "firstLine": true
+    },
+    "Dobedan Beach Resort Comfort": {
+      "firstLine": true
+    },
+    "Miramare Queen": {
+      "firstLine": true
+    },
+    "Side Sunport Hotel & Spa": {
+      "firstLine": false
+    },
+    "Sunis Evren Beach Resort & Spa": {
+      "firstLine": true
+    },
+    "Seashell Resort & Spa": {
+      "firstLine": true
+    },
+    "Selectum Colours Side": {
+      "firstLine": true
+    },
+    "TUI BLUE Xanthe": {
+      "firstLine": true
+    },
+    "Luna Blanca Resort & Spa": {
+      "firstLine": false
+    },
+    "Diamond Premium Hotel & Spa": {
+      "firstLine": false
+    },
+    "Side Mare Resort & Spa": {
+      "firstLine": false
+    },
+    "Crystal Sunset Pearl Collection": {
+      "firstLine": false
+    },
+    "Adalya Ocean Deluxe": {
+      "firstLine": true
+    },
+    "Club Melas Privé": {
+      "firstLine": true
+    },
+    "Diamond De Luxe": {
+      "firstLine": false
+    },
+    "Arcanus Hotels Trendline Side": {
+      "firstLine": true
+    },
+    "AQI Pegasos World": {
+      "firstLine": true
+    },
+    "TUI KIDS CLUB Felicia Village": {
+      "firstLine": true
+    },
+    "Hotel Oleander": {
+      "firstLine": true
+    },
+    "Aletris Deluxe Hotel & Spa": {
+      "firstLine": false
+    },
+    "Barut B Suites": {
+      "firstLine": false
+    },
+    "Victory Be Mine": {
+      "firstLine": false
+    },
+    "Sueno Hotels Beach Side": {
+      "firstLine": true
+    },
+    "Kaya Side": {
+      "firstLine": true
+    },
+    "Marvida Family Eco": {
+      "firstLine": false
+    },
+    "Seven Seas Hotel Blue": {
+      "firstLine": true
+    },
+    "Selectum Family Comfort Side": {
+      "firstLine": true
+    },
+    "Ali Bey Club Park Manavgat": {
+      "firstLine": true
+    },
+    "TUI BLUE Palm Garden": {
+      "firstLine": true
+    },
+    "Starlight Resort Hotel": {
+      "firstLine": true
+    },
+    "Sunrise Resort Hotel": {
+      "firstLine": true
+    },
+    "Club Nena": {
+      "firstLine": true
+    },
+    "Kamelya Fulya": {
+      "firstLine": true
+    },
+    "Kamelya Aishen Club": {
+      "firstLine": true
+    },
+    "Alba Queen": {
+      "firstLine": true
+    },
+    "Alba Resort": {
+      "firstLine": true
+    },
+    "VONRESORT Golden Coast": {
+      "firstLine": true
+    },
+    "VONRESORT Elite": {
+      "firstLine": true
+    },
+    "TUI Magic Life Jacaranda": {
+      "firstLine": true
+    },
+    "Royal Alhambra Palace": {
+      "firstLine": true
+    },
+    "Royal Taj Mahal": {
+      "firstLine": true
+    },
+    "Diamond Excellence Resort & Spa": {
+      "firstLine": true
+    },
+    "Side Star Resort": {
+      "firstLine": true
+    },
+    "Adalya Art Side": {
+      "firstLine": false
+    },
+    "Trendy Aspendos Beach": {
+      "firstLine": true
+    },
+    "Royal Atlantis Spa & Resort": {
+      "firstLine": true
+    },
+    "Calimera Serra Palace": {
+      "firstLine": true
+    },
+    "Bosphorus Sorgun": {
+      "firstLine": false
+    },
+    "Club Grand Side": {
+      "firstLine": true
+    },
+    "Novum Garden Side": {
+      "firstLine": false
+    },
+    "VONRESORT Golden Beach": {
+      "firstLine": false
+    },
+    "Crystal Admiral Aqua Collection": {
+      "firstLine": true
+    },
+    "Sunis Elita Beach": {
+      "firstLine": true
+    },
+    "Hotel Turan Prince": {
+      "firstLine": true
+    },
+    "Club Hotel Turan Prince World": {
+      "firstLine": true
+    },
+    "Numa Club Side": {
+      "firstLine": false
+    },
+    "Arnor De Luxe": {
+      "firstLine": false
+    },
+    "Glamour Resort & Spa": {
+      "firstLine": false
+    },
+    "Club Grand Aqua": {
+      "firstLine": false
+    },
+    "Defne Garden": {
+      "firstLine": true
+    },
+    "Defne Star": {
+      "firstLine": true
+    },
+    "Can Garden Resort": {
+      "firstLine": false
+    },
+    "Can Garden Beach": {
+      "firstLine": true
+    },
+    "Port Side Resort": {
+      "firstLine": false
+    },
+    "Villa Side Residence": {
+      "firstLine": false
+    },
+    "The Sense Deluxe": {
+      "firstLine": false
+    },
+    "Orange Palace Side": {
+      "firstLine": false
+    },
+    "Calimera Hane Garden": {
+      "firstLine": false
+    },
+    "Monachus Hotel & Spa": {
+      "firstLine": false
+    },
+    "J'adore Deluxe": {
+      "firstLine": false
+    },
+    "Side Sun Hotel": {
+      "firstLine": false
+    },
+    "Bella Resort & Spa": {
+      "firstLine": true
+    },
+    "Nova Park Hotel": {
+      "firstLine": false
+    },
+    "Side Lilyum Hotel & Spa": {
+      "firstLine": false
+    },
+    "Hotel Grand Side": {
+      "firstLine": true
+    },
+    "Victory Resort Hotel": {
+      "firstLine": false
+    },
+    "Hotel Thalia Unique": {
+      "firstLine": true
+    },
+    "İz Flower Side Beach Hotel": {
+      "firstLine": true
+    },
+    "Hotel Defne Dream": {
+      "firstLine": true
+    },
+    "Hotel Defne Ana": {
+      "firstLine": true
+    },
+    "Selge Beach Resort & Spa": {
+      "firstLine": true
+    },
+    "Süral Resort": {
+      "firstLine": true
+    },
+    "Süral Hotel": {
+      "firstLine": true
+    },
+    "Victory Volare Hotel": {
+      "firstLine": false
+    },
+    "Oz Side Premium": {
+      "firstLine": false
+    },
+    "Castival Hotel": {
+      "firstLine": false
+    },
+    "Terrace Elite Resort": {
+      "firstLine": false
+    },
+    "Side Royal Palace": {
+      "firstLine": false
+    },
+    "Side Royal Style": {
+      "firstLine": false
+    },
+    "Seher Sun Palace": {
+      "firstLine": false
+    },
+    "Royal Atlantis Icon": {
+      "firstLine": false
+    },
+    "Royal Atlantis Beach": {
+      "firstLine": true
+    },
+    "Seaden Sea World Resort & Spa": {
+      "firstLine": true
+    },
+    "Seaden Sea Planet Resort & Spa": {
+      "firstLine": true
+    },
+    "Seamelia Beach Resort": {
+      "firstLine": true
+    },
+    "Water Side Resort & Spa": {
+      "firstLine": false
+    },
+    "Dream World Hill": {
+      "firstLine": false
+    },
+    "Dream World Aqua": {
+      "firstLine": false
+    },
+    "Side Moon Palace": {
+      "firstLine": false
+    },
+    "Çenger Blue Collection": {
+      "firstLine": true
+    },
+    "Dream World Palace": {
+      "firstLine": false
+    },
+    "Side Star Park": {
+      "firstLine": false
+    },
+    "Side Breeze Hotel": {
+      "firstLine": false
+    },
+    "Side Aquamarin Resort & Spa": {
+      "firstLine": false
+    },
+    "Calimera Side Resort": {
+      "firstLine": false
+    },
+    "Club Hotel Sidelya": {
+      "firstLine": false
+    },
+    "Dream World Resort & Spa": {
+      "firstLine": false
+    },
+    "Riolavitas Resort & Spa": {
+      "firstLine": false
+    },
+    "Sunmelia Beach Resort": {
+      "firstLine": true
+    },
+    "Calido Maris Hotel": {
+      "firstLine": true
+    },
+    "LRS Port River Hotel & Spa": {
+      "firstLine": false
+    },
+    "Side Crown Serenity": {
+      "firstLine": false
+    },
+    "Narcia Resort Side": {
+      "firstLine": false
+    },
+    "Side Prenses Resort & Spa": {
+      "firstLine": false
+    },
+    "Seher Resort & Spa": {
+      "firstLine": true
+    },
+    "Grand Seker Hotel": {
+      "firstLine": false
+    },
+    "Washington Resort & SPA": {
+      "firstLine": true
+    },
+    "Serenis Hotel": {
+      "firstLine": false
+    },
+    "Palm World Side Resort": {
+      "firstLine": false
+    },
+    "alltoura Club Hotel Sidekum": {
+      "firstLine": false
+    },
+    "Side Crown Palace": {
+      "firstLine": false
+    },
+    "Süral Garden": {
+      "firstLine": false
+    },
+    "Hane Sun Elite": {
+      "firstLine": false
+    },
+    "Cesars Side": {
+      "firstLine": true
+    },
+    "Febeach Hotel": {
+      "firstLine": false
+    },
+    "Seaden Corolla": {
+      "firstLine": false
+    },
+    "Horus Paradise Luxury Resort": {
+      "firstLine": true
+    },
+    "Armella Hill": {
+      "firstLine": false
+    },
+    "Sultan of Dreams": {
+      "firstLine": true
+    },
+    "Alarcha Hotels & Resort": {
+      "firstLine": true
+    },
+    "Sultan of Side": {
+      "firstLine": false
+    },
+    "Villa Side Hotel": {
+      "firstLine": false
+    },
+    "Side Village Hotel": {
+      "firstLine": false
+    },
+    "FUN&SUN Smart Hane Sun Hotel": {
+      "firstLine": false
+    },
+    "Sırma Hotel": {
+      "firstLine": true
+    },
+    "Çenger Beach Resort": {
+      "firstLine": true
+    },
+    "LRS Lake & River Side Hotel & Spa": {
+      "firstLine": false
+    },
+    "Armas Pemar Beach": {
+      "firstLine": true
+    },
+    "Amelia Beach Resort Hotel & Spa": {
+      "firstLine": true
+    },
+    "Bieno Club Venüs Hotel & Spa": {
+      "firstLine": false
+    },
+    "Sun Club Side Hotel": {
+      "firstLine": false
+    },
+    "Side Yeşilöz Hotel": {
+      "firstLine": false
+    },
+    "Side West Park Hotel": {
+      "firstLine": false
+    },
+    "Side West Resort Hotel": {
+      "firstLine": false
+    },
+    "Sun Beach Park Hotel": {
+      "firstLine": false
+    },
+    "Serra Park Hotel": {
+      "firstLine": false
+    },
+    "Dream Family Club": {
+      "firstLine": false
+    },
+    "Side Win Hotel & Spa": {
+      "firstLine": false
+    },
+    "Club Side Coast": {
+      "firstLine": false
+    },
+    "Orfeus Park": {
+      "firstLine": false
+    },
+    "Orfeus Queen Spa": {
+      "firstLine": false
+    },
+    "Raymar Resort & Aqua": {
+      "firstLine": true
+    },
+    "Hotel Kervan": {
+      "firstLine": false
+    },
+    "Side Palm d'Or Hotel": {
+      "firstLine": false
+    },
+    "Side Royal Paradise Hotel": {
+      "firstLine": false
+    },
+    "Side Legend Hotel": {
+      "firstLine": false
+    },
+    "Çınar Family Suite Hotel": {
+      "firstLine": false
+    },
+    "Rubi Platinum Sign": {
+      "firstLine": true
+    },
+    "Rubi Platinum Spa Resort & Suites": {
+      "firstLine": true
+    },
+    "Mylome Luxury Hotel & Resort": {
+      "firstLine": true
+    },
+    "Delphin Deluxe": {
+      "firstLine": true
+    },
+    "Botanik Platinum": {
+      "firstLine": true
+    },
+    "Leodikya Kirman Premium": {
+      "firstLine": true
+    },
+    "Arycanda Kirman Premium": {
+      "firstLine": true
+    },
+    "Botanik Hotel & Resort": {
+      "firstLine": true
+    },
+    "Sidera Kirman Premium": {
+      "firstLine": true
+    },
+    "Granada Luxury Beach": {
+      "firstLine": true
+    },
+    "Haydarpasha Palace": {
+      "firstLine": true
+    },
+    "Numa Bay Exclusive": {
+      "firstLine": true
+    },
+    "Granada Luxury Okurcalar": {
+      "firstLine": true
+    },
+    "Mukarnas Spa Resort": {
+      "firstLine": true
+    },
+    "AQI Pegasos Royal": {
+      "firstLine": true
+    },
+    "Litore Resort Hotel & Spa": {
+      "firstLine": true
+    },
+    "White City Resort": {
+      "firstLine": true
+    },
+    "Utopia World": {
+      "firstLine": true
+    },
+    "Quattro Beach Spa & Resort": {
+      "firstLine": true
+    },
+    "Azura Deluxe Resort & Spa": {
+      "firstLine": true
+    },
+    "Utopia Resort & Residence": {
+      "firstLine": true
+    },
+    "Aria Resort & Spa": {
+      "firstLine": true
+    },
+    "Blue Marlin Deluxe Spa & Resort": {
+      "firstLine": true
+    },
+    "Saphir Hotel & Villas": {
+      "firstLine": true
+    },
+    "Serenity Queen Hotel": {
+      "firstLine": true
+    },
+    "Wome Deluxe": {
+      "firstLine": true
+    },
+    "Saphir Resort & Spa": {
+      "firstLine": true
+    },
+    "Lonicera Premium": {
+      "firstLine": true
+    },
+    "Adin Resort Hotel": {
+      "firstLine": true
+    },
+    "Aydınbey Gold Dreams": {
+      "firstLine": true
+    },
+    "Long Beach Alanya": {
+      "firstLine": true
+    },
+    "Lonicera Resort & Spa": {
+      "firstLine": true
+    },
+    "AQI Pegasos Resort": {
+      "firstLine": true
+    },
+    "Gypsophila Holiday Village": {
+      "firstLine": true
+    },
+    "Laguna Beach Alya Resort & Spa": {
+      "firstLine": false
+    },
+    "Sealife Buket Resort & Spa": {
+      "firstLine": true
+    },
+    "Oz Hotels Sui Resort": {
+      "firstLine": false
+    },
+    "Meryan Hotel": {
+      "firstLine": true
+    },
+    "Galeri Resort Hotel": {
+      "firstLine": true
+    },
+    "Justiniano Deluxe Resort": {
+      "firstLine": true
+    },
+    "The Lumos Deluxe Resort Hotel": {
+      "firstLine": true
+    },
+    "Adenya Hotel & Resort": {
+      "firstLine": true
+    },
+    "AQI Pegasos Club": {
+      "firstLine": true
+    },
+    "Noxinn Deluxe Hotel": {
+      "firstLine": true
+    },
+    "My Home Resort Hotel": {
+      "firstLine": false
+    },
+    "Green Garden Resort & Spa Hotel": {
+      "firstLine": false
+    },
+    "Alantur": {
+      "firstLine": true
+    },
+    "Alaiye Resort & Spa": {
+      "firstLine": true
+    },
+    "Annabella Diamond Hotel": {
+      "firstLine": true
+    },
+    "Eftalia Blue": {
+      "firstLine": true
+    },
+    "Royal Garden Beach": {
+      "firstLine": true
+    },
+    "Yalihan Una": {
+      "firstLine": true
+    },
+    "Club Kastalia Holiday Village": {
+      "firstLine": true
+    },
+    "Lonicera World": {
+      "firstLine": true
+    },
+    "Yalihan Aspendos": {
+      "firstLine": true
+    },
+    "Goldcity Hotel": {
+      "firstLine": false
+    },
+    "Justiniano Park Conti": {
+      "firstLine": true
+    },
+    "Eftalia Marin": {
+      "firstLine": true
+    },
+    "Eftalia Sol": {
+      "firstLine": true
+    },
+    "Bera Alanya": {
+      "firstLine": true
+    },
+    "Orange County Alanya": {
+      "firstLine": true
+    },
+    "Q Premium Resort": {
+      "firstLine": true
+    },
+    "Holiday Garden Resort": {
+      "firstLine": true
+    },
+    "Eftalia Ocean Hotel": {
+      "firstLine": true
+    },
+    "Eftalia Aqua Resort": {
+      "firstLine": true
+    },
+    "Kırbıyık Resort Hotel": {
+      "firstLine": true
+    },
+    "Club Aqua Plaza": {
+      "firstLine": true
+    },
+    "Holiday Park Resort": {
+      "firstLine": true
+    },
+    "Vikingen Infinity Resort & Spa": {
+      "firstLine": true
+    },
+    "Asia Beach Resort & Spa": {
+      "firstLine": true
+    },
+    "Diamond Hill Resort": {
+      "firstLine": false
+    },
+    "Kaila Beach Hotel": {
+      "firstLine": true
+    },
+    "Kahya Resort Aqua & Spa": {
+      "firstLine": true
+    },
+    "Aska Just In Beach": {
+      "firstLine": true
+    },
+    "Sentido Lycus Beach": {
+      "firstLine": true
+    },
+    "Yetkin Hotel": {
+      "firstLine": true
+    },
+    "Club Turtaş Beach Hotel": {
+      "firstLine": true
+    },
+    "Club Hotel Titan": {
+      "firstLine": true
+    },
+    "Club Dizalya": {
+      "firstLine": true
+    },
+    "Telatiye Resort": {
+      "firstLine": false
+    },
+    "Eftalia Splash Resort": {
+      "firstLine": false
+    },
+    "Eftalia Village": {
+      "firstLine": true
+    },
+    "Armas Green Fugla Beach": {
+      "firstLine": true
+    },
+    "Numa Konaktepe": {
+      "firstLine": false
+    },
+    "Xoria Deluxe": {
+      "firstLine": true
+    },
+    "Club Sun Heaven": {
+      "firstLine": true
+    },
+    "Avena Resort & Spa": {
+      "firstLine": false
+    },
+    "Incekum Su Hotel": {
+      "firstLine": true
+    },
+    "Dizalya Palm Garden": {
+      "firstLine": false
+    },
+    "Kahya Hotel": {
+      "firstLine": true
+    },
+    "Monart City": {
+      "firstLine": true
+    },
+    "Kaila Krizantem": {
+      "firstLine": true
+    },
+    "Tac Premier": {
+      "firstLine": true
+    },
+    "Riviera Hotel & Spa": {
+      "firstLine": true
+    },
+    "Blue Wave Suite Hotel": {
+      "firstLine": false
+    },
+    "Beach Club Doğanay": {
+      "firstLine": true
+    },
+    "Palmeras Beach Hotel": {
+      "firstLine": true
+    },
+    "Gardenia Beach": {
+      "firstLine": true
+    },
+    "Grand Kolibri Prestige & Spa": {
+      "firstLine": true
+    },
+    "Grand Kaptan": {
+      "firstLine": true
+    },
+    "Kleopatra Dreams Beach": {
+      "firstLine": true
+    },
+    "Drita Hotel": {
+      "firstLine": true
+    },
+    "Annabella Park Hotel": {
+      "firstLine": false
+    },
+    "Incekum West Hotel": {
+      "firstLine": true
+    },
+    "Justiniano Club Alanya": {
+      "firstLine": true
+    },
+    "Aska Bayview Resort": {
+      "firstLine": true
+    },
+    "Alaiye Kleopatra Hotel": {
+      "firstLine": false
+    },
+    "Hotel Grand Okan": {
+      "firstLine": true
+    },
+    "Grand Uysal Beach & Spa Hotel": {
+      "firstLine": true
+    },
+    "Hotel Antik": {
+      "firstLine": true
+    },
+    "Club Mermaid Village": {
+      "firstLine": false
+    },
+    "Club Paradiso": {
+      "firstLine": false
+    },
+    "Grand Zaman Beach": {
+      "firstLine": true
+    },
+    "Grand Zaman Garden": {
+      "firstLine": false
+    },
+    "Q Aventura Park": {
+      "firstLine": true
+    },
+    "My Home Sky Hotel": {
+      "firstLine": false
+    },
+    "Özkaymak İncekum Hotel": {
+      "firstLine": true
+    },
+    "Kolibri Resort Hotel": {
+      "firstLine": false
+    },
+    "Xperia Saray Beach Hotel": {
+      "firstLine": true
+    },
+    "Eftalia Downtown Hotel": {
+      "firstLine": true
+    },
+    "MC Arancia Resort": {
+      "firstLine": true
+    },
+    "Senza Garden Holiday Club": {
+      "firstLine": true
+    },
+    "Senza Grand Santana": {
+      "firstLine": true
+    },
+    "Özkaymak Select Resort": {
+      "firstLine": true
+    },
+    "Alan Xafira Deluxe Resort & Spa": {
+      "firstLine": false
+    },
+    "Ramira Beach Hotel": {
+      "firstLine": true
+    },
+    "Caretta Beach Hotel": {
+      "firstLine": true
+    },
+    "Timo Deluxe Resort": {
+      "firstLine": true
+    },
+    "White Gold Hotel & Spa": {
+      "firstLine": true
+    },
+    "Xperia Grand Bali Hotel": {
+      "firstLine": false
+    },
+    "Miarosa İncekum Beach": {
+      "firstLine": true
+    },
+    "Rubi Hotel": {
+      "firstLine": true
+    },
+    "The Marilis Hill Resort Hotel & Spa": {
+      "firstLine": false
+    },
+    "Nova Life Hotel": {
+      "firstLine": true
+    },
+    "Sun Star Resort": {
+      "firstLine": true
+    },
+    "Galaxy Beach Hotel": {
+      "firstLine": true
+    },
+    "Bieno Club SVS": {
+      "firstLine": true
+    },
+    "Caretta Relax Hotel": {
+      "firstLine": false
+    },
+    "NoxInn Club": {
+      "firstLine": false
+    },
+    "Xeno Eftalia Resort Hotel": {
+      "firstLine": false
+    },
+    "Greenlife Hotel": {
+      "firstLine": false
+    },
+    "Insula Resort & Spa": {
+      "firstLine": true
+    },
+    "Club Bayar Beach Hotel": {
+      "firstLine": true
+    },
+    "Senza The Inn Resort & Spa": {
+      "firstLine": false
+    },
+    "First Class Hotel": {
+      "firstLine": true
+    },
+    "Grand Bahama Beach Hotel": {
+      "firstLine": false
+    },
+    "Club Hotel Anjeliq": {
+      "firstLine": true
+    },
+    "Club Wasa Holiday Village": {
+      "firstLine": true
+    },
+    "Sultan Sipahi Resort": {
+      "firstLine": true
+    },
+    "Aslan City Kleopatra": {
+      "firstLine": false
+    },
+    "Atlas Beach Hotel": {
+      "firstLine": true
+    },
+    "Hedef Resort Hotel": {
+      "firstLine": false
+    },
+    "Hedef Beach Resort & Spa": {
+      "firstLine": true
+    },
+    "Maxx Royal Kemer": {
+      "firstLine": true
+    },
+    "NG Phaselis Bay": {
+      "firstLine": true
+    },
+    "Nirvana Mediterranean Excellence": {
+      "firstLine": true
+    },
+    "Nirvana Dolce Vita": {
+      "firstLine": true
+    },
+    "Akra Kemer": {
+      "firstLine": true
+    },
+    "Rixos Premium Tekirova": {
+      "firstLine": true
+    },
+    "Güral Premier Tekirova": {
+      "firstLine": true
+    },
+    "AKKA Antedon": {
+      "firstLine": true
+    },
+    "Club Med Palmiye": {
+      "firstLine": true
+    },
+    "Sherwood Exclusive Kemer": {
+      "firstLine": true
+    },
+    "DoubleTree by Hilton Antalya-Kemer": {
+      "firstLine": true
+    },
+    "Mirage Park Resort": {
+      "firstLine": true
+    },
+    "FashionTV Luxe Resort": {
+      "firstLine": true
+    },
+    "Rixos Sungate": {
+      "firstLine": true
+    },
+    "Balmy Foresta": {
+      "firstLine": true
+    },
+    "Siu Collection": {
+      "firstLine": true
+    },
+    "Baia Salima Kemer": {
+      "firstLine": true
+    },
+    "Crystal Flora": {
+      "firstLine": true
+    },
+    "Dosinia Luxury Resort": {
+      "firstLine": true
+    },
+    "Champion Holiday Village": {
+      "firstLine": true
+    },
+    "Seven Seas Hotel Life": {
+      "firstLine": true
+    },
+    "Kimeros Park Holiday Village": {
+      "firstLine": true
+    },
+    "Kilikya Palace Göynük": {
+      "firstLine": true
+    },
+    "Bergiz Hotels & Resort Kemer": {
+      "firstLine": true
+    },
+    "Mirada Del Mar": {
+      "firstLine": true
+    },
+    "Karmir Resort & Spa": {
+      "firstLine": true
+    },
+    "Crystal Prestige Elite": {
+      "firstLine": true
+    },
+    "Club Boran Mare Beach": {
+      "firstLine": true
+    },
+    "Queen's Park Göynük": {
+      "firstLine": true
+    },
+    "Fame Residence Göynük": {
+      "firstLine": true
+    },
+    "Amara Comfort Resort": {
+      "firstLine": true
+    },
+    "Greenwood Kemer Resort": {
+      "firstLine": true
+    },
+    "Transatlantik Hotel & Spa": {
+      "firstLine": false
+    },
+    "Corendon Hydros Club Kemer": {
+      "firstLine": true
+    },
+    "Fame Residence Kemer & Spa": {
+      "firstLine": true
+    },
+    "Seven Seas Gravel Select": {
+      "firstLine": true
+    },
+    "Crystal De Luxe Resort & Spa": {
+      "firstLine": true
+    },
+    "Fore Resort & Spa": {
+      "firstLine": true
+    },
+    "Rox Resort Hotel": {
+      "firstLine": true
+    },
+    "Orange County Kemer": {
+      "firstLine": true
+    },
+    "Sealife Kemer Resort Hotel": {
+      "firstLine": true
+    },
+    "Crystal Aura Aqua Collection": {
+      "firstLine": true
+    },
+    "Sailor's Beach Club": {
+      "firstLine": true
+    },
+    "AKKA Alinda": {
+      "firstLine": true
+    },
+    "Dobedan World Palace Kemer": {
+      "firstLine": true
+    },
+    "Limak Limra Hotel & Resort": {
+      "firstLine": true
+    },
+    "Le Jardin Resort Holiday Village": {
+      "firstLine": true
+    },
+    "Miarosa Kemer Beach": {
+      "firstLine": false
+    },
+    "Club Marco Polo": {
+      "firstLine": true
+    },
+    "The Norm Oriental Kemer": {
+      "firstLine": true
+    },
+    "Emelda Sun Club": {
+      "firstLine": true
+    },
+    "Zena Resort": {
+      "firstLine": true
+    },
+    "Kilikya Resort Çamyuva": {
+      "firstLine": true
+    },
+    "Armas Labada": {
+      "firstLine": true
+    },
+    "L'Oceanica Beach Resort": {
+      "firstLine": true
+    },
+    "Club Hotel Phaselis Rose": {
+      "firstLine": true
+    },
+    "Pirate's Beach Club": {
+      "firstLine": true
+    },
+    "Martı Myra": {
+      "firstLine": true
+    },
+    "RAI Foresta Tekirova": {
+      "firstLine": true
+    },
+    "Grand Ring Hotel": {
+      "firstLine": true
+    },
+    "Catamaran Quality Times": {
+      "firstLine": true
+    },
+    "Armas Kaplan Paradise": {
+      "firstLine": false
+    },
+    "Lucida Beach Hotel": {
+      "firstLine": true
+    },
+    "Armas Gül Beach": {
+      "firstLine": true
+    },
+    "Armas Beach Hotel": {
+      "firstLine": true
+    },
+    "Club Hotel Rama": {
+      "firstLine": true
+    },
+    "Club Hotel Belpinar": {
+      "firstLine": true
+    },
+    "Onkel Hotels Beldibi Resort": {
+      "firstLine": true
+    },
+    "Meder Resort Hotel": {
+      "firstLine": false
+    },
+    "L'Ancora Beach Hotel": {
+      "firstLine": true
+    },
+    "DG Hotels Rose Resort": {
+      "firstLine": true
+    },
+    "AKKA Hotels Claros": {
+      "firstLine": false
+    },
+    "Imperial Türkiz Resort Hotel": {
+      "firstLine": true
+    },
+    "Golden Lotus": {
+      "firstLine": true
+    },
+    "Simena Comfort Hotel": {
+      "firstLine": false
+    },
+    "Daima Resort": {
+      "firstLine": true
+    },
+    "Daima Biz Hotel": {
+      "firstLine": true
+    },
+    "Selçukhan Hotel": {
+      "firstLine": true
+    },
+    "Camyuva Beach Hotel": {
+      "firstLine": false
+    },
+    "Pine House by Werde Hotels": {
+      "firstLine": false
+    },
+    "Miramor Garden Resort": {
+      "firstLine": false
+    },
+    "Viking Star Hotel": {
+      "firstLine": false
+    },
+    "Viking Nona Beach Hotel": {
+      "firstLine": true
+    },
+    "Sea Gull Hotel": {
+      "firstLine": true
+    },
+    "Kemer Dream Hotel": {
+      "firstLine": false
+    },
+    "White Lilyum Hotel": {
+      "firstLine": true
+    },
+    "Fame Beach Hotel": {
+      "firstLine": true
+    },
+    "Grand Viking Hotel": {
+      "firstLine": false
+    },
+    "Stella Hotel": {
+      "firstLine": false
+    },
+    "Ambassador Plaza Hotel": {
+      "firstLine": true
+    },
+    "Viking Park Hotel & Spa": {
+      "firstLine": false
+    },
+    "Asdem Park Hotel": {
+      "firstLine": true
+    },
+    "Tu Casa Gelidonya": {
+      "firstLine": false
+    },
+    "Özkaymak Marina Hotel": {
+      "firstLine": true
+    },
+    "Astoria Park Hotel & Spa": {
+      "firstLine": false
+    },
+    "Club Hotel Sunbel": {
+      "firstLine": true
+    },
+    "Viking Beach Hotel": {
+      "firstLine": true
+    },
+    "Aybel Inn Hotel": {
+      "firstLine": false
+    },
+    "Magic Sun Hotel": {
+      "firstLine": false
+    },
+    "Rich Melissa Hotel": {
+      "firstLine": false
+    },
+    "Ares Dream Hotel": {
+      "firstLine": false
+    },
+    "Belpoint Beach Hotel": {
+      "firstLine": true
+    },
+    "Anita Dream Hotel": {
+      "firstLine": false
+    },
+    "Ares Blue Hotel": {
+      "firstLine": false
+    },
+    "Ares City Hotel": {
+      "firstLine": false
+    },
+    "Ares Hotel Kemer": {
+      "firstLine": false
     }
   }
 }
