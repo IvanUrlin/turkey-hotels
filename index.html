@@ -235,6 +235,21 @@ td:nth-child(3) {
   vertical-align:1px;
 }
 
+.first-line-badge {
+  display:inline-block;
+  margin-left:5px;
+  padding:2px 5px;
+  border:1px solid #2f7180;
+  border-radius:999px;
+  color:#265d69;
+  background:#e5f4f6;
+  font-size:11px;
+  font-weight:700;
+  line-height:1.2;
+  white-space:nowrap;
+  vertical-align:1px;
+}
+
 .hotel-aliases {
   margin-top:4px;
   color:#666;
@@ -428,6 +443,12 @@ td:nth-child(3) {
     <option value="18">18+</option>
   </select>
 
+  <select id="lineFilter" aria-label="Расположение относительно моря">
+    <option value="any">Линия: не учитывать</option>
+    <option value="first">Первая линия</option>
+    <option value="not-first">Не первая линия</option>
+  </select>
+
   <div class="multi" id="resortMulti">
     <button type="button" class="multiButton">
       <span id="resortSummary">Все курорты</span>
@@ -600,6 +621,12 @@ const ageFilters = [
   "12",
   "16",
   "18"
+];
+
+const lineFilters = [
+  "any",
+  "first",
+  "not-first"
 ];
 
 
@@ -925,6 +952,11 @@ function restoreStateFromUrl() {
   if(ageFilters.includes(age))
     document.getElementById("ageFilter").value=age;
 
+  const line = params.get("line");
+
+  if(lineFilters.includes(line))
+    document.getElementById("lineFilter").value=line;
+
   if(params.has("resorts"))
     setCheckedValues(
       ".resort-filter",
@@ -955,6 +987,7 @@ function saveStateToUrl() {
   const sort = document.getElementById("sort").value;
   const size = document.getElementById("pageSize").value;
   const age = document.getElementById("ageFilter").value;
+  const line = document.getElementById("lineFilter").value;
   const selectedResorts = [...selectedValues(".resort-filter")];
   const selectedRatings = [...selectedValues(".rating-filter")];
 
@@ -975,6 +1008,9 @@ function saveStateToUrl() {
 
   if(age!=="any")
     params.set("age",age);
+
+  if(line!=="any")
+    params.set("line",line);
 
   if(currentPage>1)
     params.set("page",currentPage);
@@ -1094,6 +1130,9 @@ function filteredHotels() {
   const ageFilter =
     document.getElementById("ageFilter").value;
 
+  const lineFilter =
+    document.getElementById("lineFilter").value;
+
 
   let result =
     hotels.filter(hotel => {
@@ -1122,6 +1161,14 @@ function filteredHotels() {
         ["12","16","18"].includes(ageFilter) &&
         minimumAge!==Number(ageFilter)
       )
+        return false;
+
+      const firstLine = hotelFirstLine(hotel.hotel);
+
+      if(lineFilter==="first" && firstLine!==true)
+        return false;
+
+      if(lineFilter==="not-first" && firstLine!==false)
         return false;
 
 
@@ -1235,6 +1282,20 @@ function hotelMinimumAge(hotelName) {
     return null;
 
   return metadata.minGuestAge;
+
+}
+
+
+function hotelFirstLine(hotelName) {
+
+  const metadata = Object.hasOwn(hotelMeta,hotelName)
+    ? hotelMeta[hotelName]
+    : null;
+
+  if(!metadata || typeof metadata.firstLine!=="boolean")
+    return null;
+
+  return metadata.firstLine;
 
 }
 
@@ -1373,6 +1434,7 @@ function render() {
 
         const aliases = hotelAliases(hotel.hotel);
         const minimumAge = hotelMinimumAge(hotel.hotel);
+        const firstLine = hotelFirstLine(hotel.hotel);
 
         return `
         <tr>
@@ -1380,6 +1442,9 @@ function render() {
           <td class="hotel">
             ${escapeHtml(hotel.hotel)}${minimumAge!==null ? `
               <span class="age-badge" aria-label="Минимальный возраст гостей: ${minimumAge}">${minimumAge}+</span>
+            ` : ""}
+            ${firstLine===true ? `
+              <span class="first-line-badge">1-я линия</span>
             ` : ""}
             ${aliases.length ? `
               <div class="hotel-aliases">
@@ -1615,6 +1680,14 @@ document.getElementById(
 
 
 document.getElementById(
+  "lineFilter"
+).addEventListener(
+  "change",
+  resetPage
+);
+
+
+document.getElementById(
   "pageSize"
 ).addEventListener(
   "change",
@@ -1685,6 +1758,11 @@ document.getElementById(
 
     document.getElementById(
       "ageFilter"
+    ).value="any";
+
+
+    document.getElementById(
+      "lineFilter"
     ).value="any";
 
 
