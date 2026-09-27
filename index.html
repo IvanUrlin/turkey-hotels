@@ -206,6 +206,20 @@ td:nth-child(3) {
   overflow-wrap:anywhere;
 }
 
+.age-badge {
+  display:inline-block;
+  margin-left:5px;
+  padding:2px 5px;
+  border-radius:999px;
+  color:#fff;
+  background:#76528f;
+  font-size:11px;
+  font-weight:700;
+  line-height:1.2;
+  white-space:nowrap;
+  vertical-align:1px;
+}
+
 .hotel-aliases {
   margin-top:4px;
   color:#666;
@@ -391,6 +405,14 @@ td:nth-child(3) {
 
 <div class="panel filters">
 
+  <select id="ageFilter" aria-label="Возрастное ограничение">
+    <option value="any">Любой возраст</option>
+    <option value="restricted">С возрастным ограничением</option>
+    <option value="12">12+</option>
+    <option value="16">16+</option>
+    <option value="18">18+</option>
+  </select>
+
   <div class="multi" id="resortMulti">
     <button type="button" class="multiButton">
       <span id="resortSummary">Все курорты</span>
@@ -555,6 +577,14 @@ const ratings = [
   "0",
   "0−",
   "−1"
+];
+
+const ageFilters = [
+  "any",
+  "restricted",
+  "12",
+  "16",
+  "18"
 ];
 
 
@@ -875,6 +905,11 @@ function restoreStateFromUrl() {
   if(["25","50","100"].includes(size))
     document.getElementById("pageSize").value=size;
 
+  const age = params.get("age");
+
+  if(ageFilters.includes(age))
+    document.getElementById("ageFilter").value=age;
+
   if(params.has("resorts"))
     setCheckedValues(
       ".resort-filter",
@@ -904,6 +939,7 @@ function saveStateToUrl() {
   const query = document.getElementById("search").value.trim();
   const sort = document.getElementById("sort").value;
   const size = document.getElementById("pageSize").value;
+  const age = document.getElementById("ageFilter").value;
   const selectedResorts = [...selectedValues(".resort-filter")];
   const selectedRatings = [...selectedValues(".rating-filter")];
 
@@ -921,6 +957,9 @@ function saveStateToUrl() {
 
   if(size!=="50")
     params.set("size",size);
+
+  if(age!=="any")
+    params.set("age",age);
 
   if(currentPage>1)
     params.set("page",currentPage);
@@ -1037,6 +1076,9 @@ function filteredHotels() {
       .getElementById("sort")
       .value;
 
+  const ageFilter =
+    document.getElementById("ageFilter").value;
+
 
   let result =
     hotels.filter(hotel => {
@@ -1053,6 +1095,17 @@ function filteredHotels() {
         !selectedRatings.has(
           hotel.rating
         )
+      )
+        return false;
+
+      const minimumAge = hotelMinimumAge(hotel.hotel);
+
+      if(ageFilter==="restricted" && minimumAge===null)
+        return false;
+
+      if(
+        ["12","16","18"].includes(ageFilter) &&
+        minimumAge!==Number(ageFilter)
       )
         return false;
 
@@ -1147,6 +1200,26 @@ function hotelAliases(hotelName) {
   return metadata.aliases.filter(
     alias => typeof alias==="string" && alias.trim()
   );
+
+}
+
+
+function hotelMinimumAge(hotelName) {
+
+  const metadata = Object.hasOwn(hotelMeta,hotelName)
+    ? hotelMeta[hotelName]
+    : null;
+
+  if(
+    !metadata ||
+    metadata.ageRestricted!==true ||
+    typeof metadata.minGuestAge!=="number" ||
+    !Number.isFinite(metadata.minGuestAge) ||
+    metadata.minGuestAge<=0
+  )
+    return null;
+
+  return metadata.minGuestAge;
 
 }
 
@@ -1284,12 +1357,15 @@ function render() {
       hotel => {
 
         const aliases = hotelAliases(hotel.hotel);
+        const minimumAge = hotelMinimumAge(hotel.hotel);
 
         return `
         <tr>
 
           <td class="hotel">
-            ${escapeHtml(hotel.hotel)}
+            ${escapeHtml(hotel.hotel)}${minimumAge!==null ? `
+              <span class="age-badge" aria-label="Минимальный возраст гостей: ${minimumAge}">${minimumAge}+</span>
+            ` : ""}
             ${aliases.length ? `
               <div class="hotel-aliases">
                 Также известен как: ${aliases.map(alias => escapeHtml(alias)).join(", ")}
@@ -1516,6 +1592,14 @@ document.getElementById(
 
 
 document.getElementById(
+  "ageFilter"
+).addEventListener(
+  "change",
+  resetPage
+);
+
+
+document.getElementById(
   "pageSize"
 ).addEventListener(
   "change",
@@ -1582,6 +1666,11 @@ document.getElementById(
     document.getElementById(
       "pageSize"
     ).value="50";
+
+
+    document.getElementById(
+      "ageFilter"
+    ).value="any";
 
 
     document
