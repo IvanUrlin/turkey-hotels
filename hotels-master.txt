@@ -307,7 +307,7 @@
 
 УРОВЕНЬ 3.5
 - Acanthus Cennet Barut Collection
-- Akra Sorgun
+- Akra Sorgun TUI BLUE Sensatori
 
 УРОВЕНЬ 3
 3+
@@ -585,7 +585,7 @@
 - Seher Sun Beach = нынешний Side Story Resort & Spa.
 - Hotel Terrace = нынешний Terrace Beach Resort.
 - Silence Beach Resort = нынешний Selectum Family Resort Side.
-- Sensatori Sorgun / Barut Sorgun Sensatori = нынешний Akra Sorgun.
+- Akra Sorgun / TUI BLUE Sensatori Akra Sorgun / TUI BLUE Sensatori Barut Sorgun / Sensatori Sorgun / Barut Sorgun Sensatori = нынешний Akra Sorgun TUI BLUE Sensatori.
 - Saray Regency / Maritim Saray Regency / Armas Regency / Amara Family Resort = нынешний Asteria Collection Side.
 - Paradise Side Beach — закрытый predecessor; отдельно не добавлять.
 
