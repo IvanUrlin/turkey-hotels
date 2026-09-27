@@ -8,6 +8,10 @@
 <style>
 * { box-sizing:border-box; }
 
+:root {
+  --dropdown-chevron:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='m1 1 5 5 5-5' fill='none' stroke='%23666' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
 body {
   margin:0;
   font-family:Arial,sans-serif;
@@ -50,6 +54,14 @@ select {
   background:#fff;
 }
 
+select {
+  appearance:none;
+  padding-right:36px;
+  background-image:var(--dropdown-chevron);
+  background-repeat:no-repeat;
+  background-position:right 12px center;
+}
+
 .filters {
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -75,8 +87,11 @@ select {
 }
 
 .arrow {
-  font-size:13px;
-  color:#666;
+  flex:0 0 12px;
+  width:12px;
+  height:8px;
+  background-image:var(--dropdown-chevron);
+  background-repeat:no-repeat;
 }
 
 .menu {
@@ -406,7 +421,7 @@ td:nth-child(3) {
 <div class="panel filters">
 
   <select id="ageFilter" aria-label="Возрастное ограничение">
-    <option value="any">Все отели</option>
+    <option value="any">Возраст: не учитывать</option>
     <option value="restricted">С возрастным ограничением</option>
     <option value="12">12+</option>
     <option value="16">16+</option>
@@ -416,7 +431,7 @@ td:nth-child(3) {
   <div class="multi" id="resortMulti">
     <button type="button" class="multiButton">
       <span id="resortSummary">Все курорты</span>
-      <span class="arrow">▼</span>
+      <span class="arrow" aria-hidden="true"></span>
     </button>
 
     <div class="menu">
@@ -441,7 +456,7 @@ td:nth-child(3) {
 
     <button type="button" class="multiButton">
       <span id="ratingSummary">Все рейтинги</span>
-      <span class="arrow">▼</span>
+      <span class="arrow" aria-hidden="true"></span>
     </button>
 
     <div class="menu">
