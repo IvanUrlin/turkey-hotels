@@ -2285,6 +2285,12 @@
     },
     "Ares Hotel Kemer": {
       "firstLine": false
+    },
+    "Sandy Beach Hotel": {
+      "aliases": [
+        "Sandy Beach"
+      ],
+      "firstLine": true
     }
   }
 }
