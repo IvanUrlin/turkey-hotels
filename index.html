@@ -62,6 +62,11 @@ select {
   background-position:right 12px center;
 }
 
+.is-filter-active {
+  border-color:#4f7f91 !important;
+  background-color:#edf5f7 !important;
+}
+
 .filters {
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -168,6 +173,13 @@ button {
   background:#315f72;
   border-color:#315f72;
   white-space:nowrap;
+}
+
+.reset.is-filter-active {
+  color:#244c5c;
+  border-color:#315f72 !important;
+  background:#e3f0f3 !important;
+  font-weight:600;
 }
 
 .count {
@@ -528,7 +540,7 @@ td:nth-child(3) {
   </select>
 
   <button id="reset" class="reset">
-    Сбросить фильтры
+    Сбросить
   </button>
 
   <button id="copyLink" class="copy-link" type="button" aria-live="polite">
@@ -1076,6 +1088,56 @@ function updateSummaries() {
 }
 
 
+function updateActiveFilterState() {
+
+  const states = [
+    {
+      control:document.getElementById("search"),
+      active:document.getElementById("search").value.trim()!==""
+    },
+    {
+      control:document.getElementById("ageFilter"),
+      active:document.getElementById("ageFilter").value!=="any"
+    },
+    {
+      control:document.getElementById("lineFilter"),
+      active:document.getElementById("lineFilter").value!=="any"
+    },
+    {
+      control:document.querySelector("#resortMulti > .multiButton"),
+      active:selectedValues(".resort-filter").size<resorts.length
+    },
+    {
+      control:document.querySelector("#ratingMulti > .multiButton"),
+      active:selectedValues(".rating-filter").size<ratings.length
+    }
+  ];
+
+  const activeFilterCount = states.filter(
+    state => state.active
+  ).length;
+
+  states.forEach(
+    state => state.control.classList.toggle(
+      "is-filter-active",
+      state.active
+    )
+  );
+
+  const reset = document.getElementById("reset");
+
+  reset.textContent = activeFilterCount
+    ? `Сбросить · ${activeFilterCount}`
+    : "Сбросить";
+
+  reset.classList.toggle(
+    "is-filter-active",
+    activeFilterCount>0
+  );
+
+}
+
+
 function makeSummary(
   selected,
   all,
@@ -1380,6 +1442,8 @@ mobilePagination.addEventListener(
 function render() {
 
   updateSummaries();
+
+  updateActiveFilterState();
 
 
   const filtered =
