@@ -39,8 +39,8 @@ This repository contains a simple static hotel catalogue website.
 ## UI validation
 For any UI or responsive-layout change:
 - use Playwright with Chromium;
-- test widths 360, 390, and 430 px;
+- test widths 360, 390, 430, and approximately 1000 px;
 - verify there is no horizontal page overflow;
-- check for console errors;
-- create screenshots for visual review;
+- check for console errors and page errors;
+- create screenshots for visual review at all tested widths;
 - report the tested widths and results before publishing a pull request.
