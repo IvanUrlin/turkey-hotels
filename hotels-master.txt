@@ -447,6 +447,7 @@
 - Side Lilyum Hotel & Spa
 - Hotel Grand Side
 - Victory Resort Hotel
+- Victory Volare Hotel
 - Hotel Thalia Unique
 - İz Flower Side Beach Hotel
 - Hotel Defne Dream
@@ -456,7 +457,6 @@
 2−
 - Süral Resort
 - Süral Hotel
-- Victory Volare Hotel
 - Sentido Serra Resort
 - Oz Side Premium
 - Castival Hotel
@@ -537,7 +537,6 @@
 1−
 - Side Yeşilöz Hotel
 - Side West Park Hotel
-- Side West Resort Hotel
 - Sun Beach Park Hotel
 - Serra Park Hotel
 
@@ -568,6 +567,7 @@
 
 РЕБРЕНДИНГИ / НЕ ДУБЛИРОВАТЬ
 - Side Aluna = бывший Diamond Beach Hotel & Spa
+- Side West Resort Hotel = нынешний FUN&SUN Smart Hane Sun Hotel; старое название отдельно не добавлять.
 - Asteria Family Resort Side = бывший Euphoria Palm Beach Resort
 - Asteria Bloom Side = бывший Selectum For Two
 - Asteria Collection Side — старые названия отдельно не добавлять
