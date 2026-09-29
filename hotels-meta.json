@@ -887,10 +887,13 @@
       "beachSurface": "sand-pebble",
       "seaEntry": "sand-pebble"
     },
-    "Titanic Mardan Palace": {
+    "Mardan Palace": {
       "firstLine": true,
       "beachSurface": "sand-pebble",
-      "seaEntry": "sand-pebble"
+      "seaEntry": "sand-pebble",
+      "aliases": [
+        "Titanic Mardan Palace"
+      ]
     },
     "Voyage Kundu": {
       "firstLine": true,
