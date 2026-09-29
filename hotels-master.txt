@@ -88,7 +88,7 @@
 УРОВЕНЬ 3.5
 - Lara Barut Collection
 - Nirvana Cosmopolitan
-- Titanic Mardan Palace
+- Mardan Palace
 - Voyage Kundu
 
 УРОВЕНЬ 3
@@ -148,6 +148,7 @@
 - Lara Family Club = нынешний Wyndham Garden Lara.
 - Kervansaray Lara = нынешний Nirvana Cosmopolitan.
 - Kervansaray Kundu = нынешний Crystal Centro Pearl Collection.
+- Titanic Mardan Palace = нынешний Mardan Palace; старое название отдельно не создавать.
 - WOW Topkapi Palace = нынешний Swandor Hotels & Resorts Topkapi Palace.
 - Venezia Palace = нынешний Ducale Lara.
 - Delphin Neo Palace = нынешний Delphin Palace; один объект, отдельную строку не создавать.
@@ -306,10 +307,10 @@
 
 УРОВЕНЬ 3.5
 - Acanthus Cennet Barut Collection
-- Akra Sorgun TUI BLUE Sensatori
 
 УРОВЕНЬ 3
 3+
+- Akra Sorgun TUI BLUE Sensatori
 - Voyage Sorgun
 - Arum Barut Collection
 - Barut Hemera
@@ -834,10 +835,10 @@
 УРОВЕНЬ 3.5
 - NG Phaselis Bay
 - Nirvana Mediterranean Excellence
-- Nirvana Dolce Vita
 
 УРОВЕНЬ 3
 3+
+- Nirvana Dolce Vita
 - Akra Kemer
 - Rixos Premium Tekirova
 
