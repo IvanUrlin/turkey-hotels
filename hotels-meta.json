@@ -770,7 +770,9 @@
     "Saint Star Hotels — Adult Only": {
       "ageRestricted": true,
       "minGuestAge": 16,
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand",
+      "seaEntry": "pebble"
     },
     "Pasha's Princess by Werde Hotels 16+": {
       "ageRestricted": true,
