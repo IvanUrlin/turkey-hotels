@@ -96,9 +96,6 @@
 - Concorde De Luxe Resort
 - Delphin Imperial
 - Delphin BE Grand Resort
-- Delphin Neo Palace
-
-3−
 - Delphin Palace
 
 УРОВЕНЬ 2
@@ -106,7 +103,7 @@
 - Trendy Perge Resort & Suites
 - Titanic Deluxe Lara
 - Liberty Hotels Lara
-- Delphin Diva Premiere
+- Delphin Diva
 - Saturn Palace Resort
 - Sherwood Exclusive Lara
 - Royal Holiday Palace
@@ -153,6 +150,8 @@
 - Kervansaray Kundu = нынешний Crystal Centro Pearl Collection.
 - WOW Topkapi Palace = нынешний Swandor Hotels & Resorts Topkapi Palace.
 - Venezia Palace = нынешний Ducale Lara.
+- Delphin Neo Palace = нынешний Delphin Palace; один объект, отдельную строку не создавать.
+- Delphin Diva Premiere = нынешний Delphin Diva; старое название отдельно не создавать.
 - Sirius Town Residence and Spa и Avullar Palace — residence/apartment-style объекты; в основную resort-шкалу не включать.
 
 ======================================================================
