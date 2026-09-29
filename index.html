@@ -519,7 +519,7 @@ td:nth-child(3) {
 
   <div class="multi" id="beachMulti">
     <button type="button" class="multiButton" aria-expanded="false">
-      <span id="beachSummary">Все покрытия</span>
+      <span id="beachSummary">Все покрытия пляжа</span>
       <span class="arrow" aria-hidden="true"></span>
     </button>
     <div class="menu">
@@ -533,7 +533,7 @@ td:nth-child(3) {
 
   <div class="multi" id="entryMulti">
     <button type="button" class="multiButton" aria-expanded="false">
-      <span id="entrySummary">Все входы</span>
+      <span id="entrySummary">Все входы в море</span>
       <span class="arrow" aria-hidden="true"></span>
     </button>
     <div class="menu">
@@ -1217,14 +1217,14 @@ function updateSummaries() {
   document.getElementById("beachSummary").textContent = makeSummary(
     selectedBeaches,
     beachSurfaces.map(([,label])=>label),
-    "Все покрытия",
+    "Все покрытия пляжа",
     "Покрытий"
   );
 
   document.getElementById("entrySummary").textContent = makeSummary(
     selectedEntries,
     seaEntries.map(([,label])=>label),
-    "Все входы",
+    "Все входы в море",
     "Входов"
   );
 
