@@ -310,69 +310,91 @@
       "aliases": [
         "Sirius Deluxe"
       ],
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Gold Island Selected": {
       "aliases": [
         "Sentido Gold Island"
       ],
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Seven Seas Palmeras Bay": {
       "aliases": [
         "Kemal Bay Hotel"
       ],
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Oz Hotels Incekum Beach Resort": {
       "aliases": [
         "Oz Hotels Incekum Beach",
         "Incekum Beach Resort"
       ],
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Miarosa Konaklı Garden": {
       "aliases": [
         "Hedef Rose Garden"
       ],
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Kaia Coracesium": {
       "aliases": [
         "Villa Sunflower Beach Hotel"
       ],
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Utopia Beach Club": {
       "aliases": [
         "Alara Star",
         "Alara"
       ],
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Azura World Hotel": {
       "aliases": [
         "Wyndham Alanya"
       ],
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "A Good Life Utopia Family Resort": {
       "aliases": [
         "Water Planet Hotel & Aquapark"
       ],
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Lonicera West Hotel": {
       "aliases": [
         "Gold Island Mondo"
       ],
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Solivia Hotel": {
       "aliases": [
         "Titan Select"
       ],
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand",
+      "seaEntry": "pebble"
     },
     "ananea Kleopatra Beach": {
       "aliases": [
@@ -380,7 +402,9 @@
       ],
       "ageRestricted": true,
       "minGuestAge": 12,
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Sunland Resort Beldibi": {
       "aliases": [
@@ -651,32 +675,44 @@
     "Sunprime C-Lounge": {
       "ageRestricted": true,
       "minGuestAge": 16,
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Selene Beach & Spa": {
       "ageRestricted": true,
       "minGuestAge": 16,
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Granada Luxury Red": {
       "ageRestricted": true,
       "minGuestAge": 16,
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "White City Beach Hotel": {
       "ageRestricted": true,
       "minGuestAge": 16,
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Michell Hotel & Spa": {
       "ageRestricted": true,
       "minGuestAge": 16,
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Day One Beach Resort & Spa – Adult Only": {
       "ageRestricted": true,
       "minGuestAge": 18,
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "rocky"
     },
     "Balmy Beach Resort Kemer": {
       "ageRestricted": true,
@@ -2231,463 +2267,769 @@
       "seaEntry": "sand"
     },
     "Rubi Platinum Sign": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Rubi Platinum Spa Resort & Suites": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Mylome Luxury Hotel & Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Delphin Deluxe": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Botanik Platinum": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "pebble",
+      "seaEntry": "pebble"
     },
     "Leodikya Kirman Premium": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "pebble"
     },
     "Arycanda Kirman Premium": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Botanik Hotel & Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "pebble",
+      "seaEntry": "pebble"
     },
     "Sidera Kirman Premium": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Granada Luxury Beach": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Haydarpasha Palace": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Numa Bay Exclusive": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Granada Luxury Okurcalar": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Mukarnas Spa Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "AQI Pegasos Royal": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Litore Resort Hotel & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "White City Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Utopia World": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Quattro Beach Spa & Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Azura Deluxe Resort & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Utopia Resort & Residence": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Aria Resort & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Blue Marlin Deluxe Spa & Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Saphir Hotel & Villas": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Serenity Queen Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "pebble",
+      "seaEntry": "pebble"
     },
     "Wome Deluxe": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Saphir Resort & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Lonicera Premium": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Adin Resort Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Aydınbey Gold Dreams": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Long Beach Alanya": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Lonicera Resort & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "AQI Pegasos Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Gypsophila Holiday Village": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Laguna Beach Alya Resort & Spa": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Sealife Buket Resort & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Oz Hotels Sui Resort": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Meryan Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "pebble"
     },
     "Galeri Resort Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Justiniano Deluxe Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "The Lumos Deluxe Resort Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "pebble"
     },
     "Adenya Hotel & Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "AQI Pegasos Club": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Noxinn Deluxe Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "My Home Resort Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Green Garden Resort & Spa Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand",
+      "seaEntry": "rocky"
     },
     "Alantur": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "rocky"
     },
     "Alaiye Resort & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Annabella Diamond Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Eftalia Blue": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Royal Garden Beach": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Yalihan Una": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Club Kastalia Holiday Village": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Lonicera World": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Yalihan Aspendos": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Goldcity Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Justiniano Park Conti": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "pebble",
+      "seaEntry": "pebble"
     },
     "Eftalia Marin": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Eftalia Sol": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Bera Alanya": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Orange County Alanya": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Q Premium Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "pebble",
+      "seaEntry": "rocky"
     },
     "Holiday Garden Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Eftalia Ocean Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Eftalia Aqua Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Kırbıyık Resort Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Club Aqua Plaza": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Holiday Park Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Vikingen Infinity Resort & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Asia Beach Resort & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Diamond Hill Resort": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Kaila Beach Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Kahya Resort Aqua & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Aska Just In Beach": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Sentido Lycus Beach": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Yetkin Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Club Turtaş Beach Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "pebble"
     },
     "Club Hotel Titan": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Club Dizalya": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Telatiye Resort": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand",
+      "seaEntry": "pebble"
     },
     "Eftalia Splash Resort": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Eftalia Village": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Armas Green Fugla Beach": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Numa Konaktepe": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Xoria Deluxe": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Club Sun Heaven": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Avena Resort & Spa": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Incekum Su Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Dizalya Palm Garden": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Kahya Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Monart City": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Kaila Krizantem": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Tac Premier": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "rocky"
     },
     "Riviera Hotel & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Blue Wave Suite Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Beach Club Doğanay": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Palmeras Beach Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "pebble"
     },
     "Gardenia Beach": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "pebble"
     },
     "Grand Kolibri Prestige & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Grand Kaptan": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Kleopatra Dreams Beach": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Drita Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Annabella Park Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Incekum West Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Justiniano Club Alanya": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Aska Bayview Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Alaiye Kleopatra Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Hotel Grand Okan": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Grand Uysal Beach & Spa Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Hotel Antik": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Club Mermaid Village": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Club Paradiso": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Grand Zaman Beach": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Grand Zaman Garden": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Q Aventura Park": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "My Home Sky Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Özkaymak İncekum Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Kolibri Resort Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Xperia Saray Beach Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Eftalia Downtown Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "MC Arancia Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Senza Garden Holiday Club": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Senza Grand Santana": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Özkaymak Select Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Alan Xafira Deluxe Resort & Spa": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Ramira Beach Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Caretta Beach Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "pebble"
     },
     "Timo Deluxe Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "pebble"
     },
     "White Gold Hotel & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Xperia Grand Bali Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand",
+      "seaEntry": "rocky"
     },
     "Miarosa İncekum Beach": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Rubi Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "The Marilis Hill Resort Hotel & Spa": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Nova Life Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Sun Star Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Galaxy Beach Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Bieno Club SVS": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Caretta Relax Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "NoxInn Club": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Xeno Eftalia Resort Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Greenlife Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Insula Resort & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Club Bayar Beach Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Senza The Inn Resort & Spa": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "First Class Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Grand Bahama Beach Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Club Hotel Anjeliq": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Club Wasa Holiday Village": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Sultan Sipahi Resort": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Aslan City Kleopatra": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand",
+      "seaEntry": "sand"
     },
     "Atlas Beach Hotel": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "rocky"
     },
     "Hedef Resort Hotel": {
-      "firstLine": false
+      "firstLine": false,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Hedef Beach Resort & Spa": {
-      "firstLine": true
+      "firstLine": true,
+      "beachSurface": "sand-pebble",
+      "seaEntry": "sand-pebble"
     },
     "Maxx Royal Kemer": {
       "firstLine": true
