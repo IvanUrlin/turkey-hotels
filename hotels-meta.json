@@ -666,10 +666,10 @@
     "Delphin BE Grand Resort": {
       "firstLine": true
     },
-    "Delphin Neo Palace": {
-      "firstLine": true
-    },
     "Delphin Palace": {
+      "aliases": [
+        "Delphin Neo Palace"
+      ],
       "firstLine": true
     },
     "Trendy Perge Resort & Suites": {
@@ -681,7 +681,10 @@
     "Liberty Hotels Lara": {
       "firstLine": true
     },
-    "Delphin Diva Premiere": {
+    "Delphin Diva": {
+      "aliases": [
+        "Delphin Diva Premiere"
+      ],
       "firstLine": true
     },
     "Saturn Palace Resort": {
