@@ -16,10 +16,13 @@ This repository contains a simple static hotel catalogue website.
 
 ## Development workflow
 - Code, UI, responsive-layout, and application-logic changes are implemented by Codex.
-- ChatGPT prepares the task for Codex and then performs an independent review of Codex's pull request.
+- ChatGPT prepares the task for Codex.
+- After Codex opens a pull request, wait for the configured automated code review and inspect its findings.
+- Automated review does not replace ChatGPT's independent review and is not an unconditional merge gate.
+- ChatGPT then performs an independent review of the pull request, including the diff, scope, test evidence, regressions, compliance with these instructions, and any findings from the automated review.
+- Substantive findings from either review should be resolved before ChatGPT recommends the pull request for merge.
 - ChatGPT should not author code/UI/logic changes directly when Codex is available.
 - Codex must run the required validation for its implementation, including Playwright/Chromium for UI work.
-- ChatGPT reviews the diff, scope, test evidence, regressions, and compliance with these instructions.
 - The user performs the final merge after ChatGPT's review.
 - Data-only metadata changes (for example hotels-meta.json) and repository-process documentation may be handled directly by ChatGPT when appropriate, but still through a separate branch and pull request.
 
